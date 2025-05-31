@@ -113,7 +113,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'fractalx_db',
         'USER': 'fractalx_db',
-        'PASSWORD': 'fractal-db',
+        'PASSWORD': 'fractalx-db',
         'HOST': 'localhost',
         'PORT': '3306',
     }
