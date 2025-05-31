@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-r=tg)vg4yxkj&o*r1e#d88%#j7=-kfkved$+7%&ip0to%)1rj^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['fractalx.ir', 'www.fractalx.ir']
 
