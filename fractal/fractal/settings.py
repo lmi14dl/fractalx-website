@@ -114,8 +114,7 @@ DATABASES = {
         'NAME': 'fractalx_db',
         'USER': 'fractalx_db',
         'PASSWORD': 'fractalx-db',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'HOST': 'https://fractalx.ir'
     }
 }
 
