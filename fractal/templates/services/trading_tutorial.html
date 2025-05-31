@@ -1,0 +1,69 @@
+{% extends '../base.html' %}
+{% load static i18n %}
+
+{% block title %}
+{% trans 'Trading Tutorial' %}
+{% endblock title %}
+
+{% block style %}
+<link href="{% static 'css/trading_tutorial.css' %}" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+{% endblock style %}
+
+{% block content %}
+<br><br><br><br><br>
+<center>
+    <div class="main-container">
+        <!-- Glow dots decoration -->
+        <div class="glow-dot-1"></div>
+        <div class="glow-dot-2"></div>
+        
+        <h1 class="main-title">
+            <span class="gradient-text">فهرست نمونه</span>
+        </h1>
+        
+        <div class="content-box">
+            <ul class="item-list">
+                <li class="list-item">
+                    <span class="green-dot">•</span>
+                    <span>آیتم اول: این یک مورد نمونه در فهرست است.</span>
+                </li>
+                <li class="list-item">
+                    <span class="purple-dot">•</span>
+                    <span>آیتم دوم: این مورد دیگر برای نمایش است.</span>
+                </li>
+                <li class="list-item">
+                    <span class="green-dot">•</span>
+                    <span>آیتم سوم: قابلیت افزودن موارد بیشتر وجود دارد.</span>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="divider"></div>
+        
+        <h2 class="section-title">
+            <span class="gradient-text">بخش ویدیو و توضیحات</span>
+        </h2>
+        
+        <div class="grid-container">
+            <div class="description-box">
+                <h3 class="description-title">توضیحات ویدیو</h3>
+                <p class="description-text">
+                    این ویدیو یک نمونه است که در سمت راست نمایش داده می‌شود. توضیحات مربوط به ویدیو می‌تواند شامل جزئیات محتوا، هدف آن یا هر اطلاعات مرتبط دیگری باشد. این بخش برای ارائه اطلاعات تکمیلی درباره ویدیوی نمایش داده شده طراحی شده است.
+                </p>
+            </div>
+            
+            <div class="video-container">
+                <video controls>
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                    مرورگر شما از پخش ویدیو پشتیبانی نمی‌کند.
+                </video>
+                <div class="video-overlay"></div>
+            </div>
+        </div>
+    </div>
+</center>
+<br><br><br><br><br>
+
+{% endblock content %}

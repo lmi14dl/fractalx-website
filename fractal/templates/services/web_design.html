@@ -1,0 +1,210 @@
+{% extends '../base.html' %}
+{% load static i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+
+
+{% block title %}
+{% trans 'Web Design Services' %}
+{% endblock %}
+
+{% block style %}
+<link href="{% static 'css/web_design.css' %}" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+<div class="{% if LANGUAGE_CODE == 'fa' %}rtl{% endif %}" style="text-align: {% if LANGUAGE_CODE == 'fa' %}right{% endif %};">
+    <section class="py-5 neon-bg">
+        <div class="container px-5 my-5">
+            <!-- دکمه برگشت -->
+            <div class="mb-4">
+                <a href="{% url 'home' %}" class="btn btn-back-neon">
+                    <i class="bi bi-arrow-left me-2"></i> {% trans "Back" %}
+                </a>
+            </div>
+            <div class="section-glass">
+                <div class="row gx-5 align-items-center mb-5">
+                    <div class="col-lg-6">
+                        <h2 class="fw-bolder mb-3">{% trans "Create Stunning Websites That Perform" %}</h2>
+                        <p class="lead text-neon-muted">
+                            {% trans "At" %} <span class=\"highlight\">FractalX</span>, {% trans "we specialize in designing and building visually stunning and highly functional websites. Whether you're a startup or an enterprise, our custom-tailored designs are optimized for performance, SEO, and user experience." %}
+                        </p>
+                    </div>
+                    <div class="col-lg-6 text-center">
+                        <img src="{% static 'images/portfolio.png' %}" alt="{% trans "Web Design Hero" %}" class="hero-image">
+                    </div>
+                </div>
+
+                <h3 class="fw-bold mb-3">{% trans "Types of sites and their advantages and features" %}</h3>
+                <ul class="benefits-list text-neon-muted mb-4">
+                    <li>
+                        <strong><span class="highlight-intro" style="text-align: {% if LANGUAGE_CODE == 'fa' %}right{% endif %};">{% trans "Business/Corporate Websites" %}</span></strong>
+                        {% trans "Description:" %} {% trans "These sites are designed to officially introduce companies, organizations, or brands. They include contact information, services, products, company mission, and related news." %}<br>
+                        <br>
+                        <li><strong>{% trans "Target audience:" %}</strong> {% trans "Small and large businesses, government and private organizations." %}</li>
+                        <li><strong>{% trans "Advantages:" %}</strong> {% trans "Increase brand credibility, attract B2B customers, provide official information." %}</li>
+                        <hr>
+                    </li>
+                    <li>
+                        <strong><span class="highlight-intro" style="text-align: {% if LANGUAGE_CODE == 'fa' %}right{% endif %};">{% trans "E-commerce Websites" %}</span></strong>
+                        {% trans "Description:" %} {% trans "Platforms for buying and selling products or services online (e.g. Digikala, Amazon). With a shopping cart, payment gateway, and product management system." %}<br>
+                        <br>
+                        <li><strong>{% trans "Target audience:" %}</strong> {% trans "Sellers, manufacturers, business startups." %}</li>
+                        <li><strong>{% trans "Advantages:" %}</strong> {% trans "24/7 sales, access to the global market, reduced physical sales costs." %}</li>
+                        <hr>
+                    </li>
+                    <li>
+                        <strong><span class="highlight-intro" style="text-align: {% if LANGUAGE_CODE == 'fa' %}right{% endif %};">{% trans "Personal/Blog Websites" %}</span></strong>
+                        {% trans "Description:" %} {% trans "For people who want to share their experiences, knowledge, or art (e.g., professional blogs, resume sites)." %}<br>
+                        <br>
+                        <li><strong>{% trans "Target audience:" %}</strong> {% trans "Writers, artists, freelancers, professionals." %}</li>
+                        <li><strong>{% trans "Advantages:" %}</strong> {% trans "Build a personal brand, monetize ads or content, connect directly with your audience." %}</li>
+                        <hr>
+                    </li>
+                    <li>
+                        <strong><span class="highlight-intro" style="text-align: {% if LANGUAGE_CODE == 'fa' %}right{% endif %};">{% trans "News/Magazine Websites" %}</span></strong>
+                        {% trans "Description:" %} {% trans "Platforms for publishing news, analytical articles, or digital magazines (e.g. BBC, Zoomit). Usually updated daily." %}<br>
+                        <br>
+                        <li><strong>{% trans "Target audience:" %}</strong> {% trans "Journalists, media, breaking news enthusiasts." %}</li>
+                        <li><strong>{% trans "Advantages:" %}</strong> {% trans "High traffic, revenue from advertising and subscriptions." %}</li>
+                        <hr>
+                    </li>
+                    <li>
+                        <strong><span class="highlight-intro" style="text-align: {% if LANGUAGE_CODE == 'fa' %}right{% endif %};">{% trans "Educational Websites" %}</span></strong>
+                        {% trans "Description:" %} {% trans "Offering online courses, virtual training, or academic resources (e.g. Coursera, Faraders). May have an LMS system." %}<br>
+                        <br>
+                        <li><strong>{% trans "Target audience:" %}</strong> {% trans "Schools, universities, educators, students." %}</li>
+                        <li><strong>{% trans "Advantages:" %}</strong> {% trans "Distance learning, selling courses, access to global resources." %}</li>
+                        <hr>
+                    </li>
+                    <li>
+                        <strong><span class="highlight-intro" style="text-align: {% if LANGUAGE_CODE == 'fa' %}right{% endif %};">{% trans "Service-Based Websites" %}</span></strong>
+                        {% trans "Description:" %} {% trans "Focus on providing specific services such as website design, legal advice, hotel reservations, or telemedicine." %}<br>
+                        <br>
+                        <li><strong>{% trans "Target audience:" %}</strong> {% trans "Professional service providers (e.g. doctors, lawyers, technology specialists)." %}</li>
+                        <li><strong>{% trans "Advantages:" %}</strong> {% trans "Ease of booking services, professional presentation of the business." %}</li>
+                        <hr>
+                    </li>
+                    <li>
+                        <strong><span class="highlight-intro" style="text-align: {% if LANGUAGE_CODE == 'fa' %}right{% endif %};">{% trans "Forums/Social Networks" %}</span></strong>
+                        {% trans "Description:" %} {% trans "Interactive platforms for discussion and exchange of ideas (like Reddit) or specialized social networks." %}<br>
+                        <br>
+                        <li><strong>{% trans "Target audience:" %}</strong> {% trans "Online communities, interest groups." %}</li>
+                        <li><strong>{% trans "Advantages:" %}</strong> {% trans "User engagement, targeted advertising." %}</li>
+                        <hr>
+                    </li>
+                    <li>
+                        <strong><span class="highlight-intro" style="text-align: {% if LANGUAGE_CODE == 'fa' %}right{% endif %};">{% trans "Portfolio Websites" %}</span></strong>
+                        {% trans "Description:" %} {% trans "Showcase professional portfolios (e.g. photographers, graphic designers, developers)." %}<br>
+                        <br>
+                        <li><strong>{% trans "Target audience:" %}</strong> {% trans "Freelancers, artists, designers." %}</li>
+                        <li><strong>{% trans "Advantages:" %}</strong> {% trans "Attract direct clients, visually showcase expertise." %}</li>
+                        <hr>
+                    </li>
+                    <li>
+                        <strong><span class="highlight-intro" style="text-align: {% if LANGUAGE_CODE == 'fa' %}right{% endif %};">{% trans "Membership Websites" %}</span></strong>
+                        {% trans "Description:" %} {% trans "Access to exclusive content after payment or registration (such as movie or software sites)." %}<br>
+                        <br>
+                        <li><strong>{% trans "Target audience:" %}</strong> {% trans "Dedicated content creators." %}</li>
+                        <li><strong>{% trans "Advantages:" %}</strong> {% trans "Recurring revenue, loyal community of users." %}</li>
+                        <hr>
+                    </li>
+                    <li>
+                        <strong><span class="highlight-intro" style="text-align: {% if LANGUAGE_CODE == 'fa' %}right{% endif %};">{% trans "Inspirational Websites" %}</span></strong>
+                        {% trans "Description:" %} {% trans "Motivational, success, or lifestyle content (like TED)." %}<br>
+                        <br>
+                        <li><strong>{% trans "Target audience:" %}</strong> {% trans "The general public looking for motivation or life tips." %}</li>
+                        <li><strong>{% trans "Advantages:" %}</strong> {% trans "Inspire and engage a broad audience." %}</li>
+                        <hr>
+                    </li>
+                </ul>
+
+                <p class="text-neon-muted">
+                    {% trans "Let us help you turn your ideas into a powerful digital presence. With our innovative approach and deep technical know-how, you'll stand out in the digital world." %}
+                </p>
+
+                <div class="text-center mt-4">
+                    <a href="{% url 'web_design_portfolio' %}" class="btn btn-neon px-4 py-2 me-3">{% trans "Portfolio" %}</a>
+                    <button class="btn btn-neon px-4 py-2" data-bs-toggle="modal" data-bs-target="#orderModal">{% trans "Order" %}</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<!-- Order Modal -->
+<div class="modal fade" id="orderModal" tabindex="-1" aria-labelledby="orderModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content rounded-4 shadow">
+            <div class="modal-header">
+                <h5 class="modal-title" id="orderModalLabel">{% trans "Place Your Order" %}</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="{% trans "Close" %}"></button>
+            </div>
+            <div class="modal-body d-flex flex-column gap-3">
+                <!-- نمایش پیام‌های موفقیت یا خطا -->
+                {% if messages %}
+                    <div class="messages">
+                        {% for message in messages %}
+                            <div class="alert alert-{% if message.tags == 'success' %}success{% else %}danger{% endif %} alert-dismissible fade show" role="alert">
+                                {{ message }}
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="{% trans "Close" %}"></button>
+                            </div>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+                <div class="modal-instruction">
+                    {% trans "Choose how you'd like to get in touch with us:" %}
+                </div>
+                <a href="https://t.me/YourTelegramUsername" target="_blank" class="btn modal-btn-neon w-100">
+                    <i class="bi bi-telegram me-2"></i> {% trans "Contact via Telegram" %}
+                </a>
+                {% if user.is_authenticated %}
+                    <form method="post" action="{% url 'web_design' %}">
+                        {% csrf_token %}
+                        <button type="submit" class="btn modal-btn-neon w-100">
+                            <i class="bi bi-telephone-fill me-2"></i> {% trans "Request a Call" %}
+                        </button>
+                    </form>
+                {% else %}
+                    <div class="form-container">
+                        <form method="post" action="{% url 'web_design' %}">
+                            {% csrf_token %}
+                            <div class="mb-3">
+                                <input type="text" name="name" class="form-control form-control-lg" placeholder="{% trans "Your Name" %}" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="tel" name="phone" class="form-control form-control-lg" placeholder="{% trans "Phone Number" %}" required>
+                            </div>
+                            <button type="submit" class="btn modal-btn-neon w-100">
+                                <i class="bi bi-telephone-fill me-2"></i> {% trans "Request a Call" %}
+                            </button>
+                        </form>
+                    </div>
+                {% endif %}
+                <a href="{% url 'web_design_order_form' %}" class="btn modal-btn-neon w-100">
+                    <i class="bi bi-file-earmark-text-fill me-2"></i> {% trans "Fill Full Order Form" %}
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+{% block script %}
+<script>
+// حذف modal-backdrop بعد از بستن مودال
+document.addEventListener('hidden.bs.modal', function () {
+    document.querySelectorAll('.modal-backdrop').forEach(function (backdrop) {
+        backdrop.remove();
+    });
+    document.body.classList.remove('modal-open');
+    document.body.style.overflow = 'auto';
+});
+
+// باز کردن خودکار مودال فقط برای درخواست‌های POST
+document.addEventListener('DOMContentLoaded', function () {
+    {% if messages and from_post %}
+        var orderModal = new bootstrap.Modal(document.getElementById('orderModal'), {});
+        orderModal.show();
+    {% endif %}
+});
+</script>
+{% endblock %}
+{% endblock %}

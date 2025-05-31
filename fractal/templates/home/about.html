@@ -1,0 +1,210 @@
+{% extends '../base.html' %}
+{% load static i18n %}
+
+{% block title %}
+FractalX - About Us
+{% endblock %}
+
+{% block style %}
+<link href="{% static 'css/about.css' %}" rel="stylesheet" />
+<!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet"> -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+
+<!-- Hero Section -->
+<section class="about-hero">
+    <div class="particles" id="particles-about"></div>
+    <div class="hero-overlay">
+        <div class="container text-center">
+            <h1 class="hero-title" data-aos="fade-down" data-aos-duration="1000">{% trans "About FractalX" %}</h1>
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-duration="1200">{% trans "We are a creative team building the digital future with cutting-edge technology." %}</p>
+            <a href="#team" data-aos="zoom-in" data-aos-duration="1400"><button class="btn btn-neon w-50 py-2 fw-bold">{% trans "Learn More" %}</button></a>
+        </div>
+    </div>
+</section>
+
+<!-- Team Section -->
+<section class="team-section py-5" id="team">
+    <div class="particles" id="particles-team"></div>
+    <div class="container">
+        <h2 class="section-title text-center mb-5" data-aos="fade-up">{% trans "Our Team" %}</h2>
+        <div class="row gx-5 justify-content-center">
+            <!-- Team Member 1 -->
+            <div class="col-lg-5 col-md-6 mb-5">
+                <div class="team-card" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="team-img-wrapper">
+                        <img src="{% static 'images/profile.png' %}" alt="Team Member" class="team-img">
+                        <div class="img-overlay"></div>
+                    </div>
+                    <div class="team-info">
+                        <h3 class="team-name">{% trans "Milad Shourideh" %}</h3>
+                        <p class="team-role">{% trans "Backend Developer & Security Pentester" %}</p>
+                        <div class="team-social">
+                            <a href="https://www.linkedin.com/in/milad-shourideh-8a1a64354?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-icon"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://github.com/lmi14dl" class="social-icon"><i class="bi bi-github"></i></a>
+                            <a href="https://t.me/arsen_programmer" class="social-icon"><i class="bi bi-telegram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Team Member 2 -->
+            <div class="col-lg-5 col-md-6 mb-5">
+                <div class="team-card" data-aos="zoom-in" data-aos-duration="1200">
+                    <div class="team-img-wrapper">
+                        <img src="{% static 'images/behnampic.png' %}" alt="Team Member" class="team-img">
+                        <div class="img-overlay"></div>
+                    </div>
+                    <div class="team-info">
+                        <h3 class="team-name">{% trans "Behnam Eskandari" %}</h3>
+                        <p class="team-role">{% trans "Content Creator & Trader" %}</p>
+                        <div class="team-social">
+                            <a href="tel:+989158914005" class="social-icon"><i class="bi bi-dribbble"></i></a>
+                            <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+                            <a href="https://t.me/fractal_tradiing" class="social-icon"><i class="bi bi-telegram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Mission Section -->
+<section class="mission-section py-5">
+    <div class="particles" id="particles-mission"></div>
+    <div class="container">
+        <div class="row gx-5 align-items-center">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+                <h2 class="section-title">{% trans "Our Mission" %}</h2>
+                <p class="mission-text">{% trans "At FractalX, we are committed to delivering innovative digital solutions that elevate businesses to the next level. Using advanced technologies, we build the future today." %}</p>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1200">
+                <div class="mission-img-wrapper">
+                    <img src="{% static 'images/webpage.png' %}" alt="Mission" class="mission-img">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- CTA Section -->
+<section class="cta-section py-5">
+    <div class="particles" id="particles-cta"></div>
+    <div class="container text-center">
+        <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">{% trans "Join Us" %}</h2>
+        <p class="cta-text" data-aos="fade-up" data-aos-duration="1200">{% trans "Ready to take your business to the next level? Get in touch with us!" %}</p>
+        <a href="{% url 'contact' %}" data-aos="zoom-in" data-aos-duration="1400"><button class="btn btn-neon w-25 py-2 fw-bold">{% trans "Contact Us" %}</button></a>
+    </div>
+</section>
+{% endblock %}
+
+{% block script %}
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script>
+    // Initialize AOS
+    AOS.init({
+        once: true,
+        offset: 100,
+        easing: 'ease-out-cubic'
+    });
+
+    // Particles.js برای Hero Section
+    particlesJS('particles-about', {
+        particles: {
+            number: { value: 80, density: { enable: true, value_area: 800 } },
+            color: { value: ['#FEFEFE', '#004d33', '#003366'] },
+            shape: { type: 'circle' },
+            opacity: { value: 0.5, random: true },
+            size: { value: 3, random: true },
+            line_linked: { enable: true, distance: 150, color: '#FF10F0', opacity: 0.4, width: 1.5 },
+            move: { enable: true, speed: 2, direction: 'none', random: true }
+        },
+        interactivity: {
+            detect_on: 'canvas',
+            events: { onhover: { enable: true, mode: 'repulse' }, onclick: { enable: true, mode: 'push' } },
+            modes: { repulse: { distance: 100 }, push: { particles_nb: 4 } }
+        },
+        retina_detect: true
+    });
+
+    // Particles.js برای Team Section
+    particlesJS('particles-team', {
+        particles: {
+            number: { value: 80, density: { enable: true, value_area: 800 } },
+            color: { value: ['#FEFEFE', '#004d33', '#003366'] },
+            shape: { type: 'circle' },
+            opacity: { value: 0.5, random: true },
+            size: { value: 3, random: true },
+            line_linked: { enable: true, distance: 150, color: '#FF10F0', opacity: 0.4, width: 1.5 },
+            move: { enable: true, speed: 2, direction: 'none', random: true }
+        },
+        interactivity: {
+            detect_on: 'canvas',
+            events: { onhover: { enable: true, mode: 'repulse' }, onclick: { enable: true, mode: 'push' } },
+            modes: { repulse: { distance: 100 }, push: { particles_nb: 4 } }
+        },
+        retina_detect: true
+    });
+
+    // Particles.js برای Mission Section
+    particlesJS('particles-mission', {
+        particles: {
+            number: { value: 80, density: { enable: true, value_area: 800 } },
+            color: { value: ['#FEFEFE', '#004d33', '#003366'] },
+            shape: { type: 'circle' },
+            opacity: { value: 0.5, random: true },
+            size: { value: 3, random: true },
+            line_linked: { enable: true, distance: 150, color: '#FF10F0', opacity: 0.4, width: 1.5 },
+            move: { enable: true, speed: 2, direction: 'none', random: true }
+        },
+        interactivity: {
+            detect_on: 'canvas',
+            events: { onhover: { enable: true, mode: 'repulse' }, onclick: { enable: true, mode: 'push' } },
+            modes: { repulse: { distance: 100 }, push: { particles_nb: 4 } }
+        },
+        retina_detect: true
+    });
+    // particle js for timeline
+    particlesJS('particles-timeline', {
+        particles: {
+            number: { value: 80, density: { enable: true, value_area: 800 } },
+            color: { value: ['#FEFEFE', '#004d33', '#003366'] },
+            shape: { type: 'circle' },
+            opacity: { value: 0.5, random: true },
+            size: { value: 3, random: true },
+            line_linked: { enable: true, distance: 150, color: '#FF10F0', opacity: 0.4, width: 1.5 },
+            move: { enable: true, speed: 2, direction: 'none', random: true }
+        },
+        interactivity: {
+            detect_on: 'canvas',
+            events: { onhover: { enable: true, mode: 'repulse' }, onclick: { enable: true, mode: 'push' } },
+            modes: { repulse: { distance: 100 }, push: { particles_nb: 4 } }
+        },
+        retina_detect: true
+    });
+    // particle js for CTA
+    particlesJS('particles-cta', {
+        particles: {
+            number: { value: 80, density: { enable: true, value_area: 800 } },
+            color: { value: ['#FEFEFE', '#004d33', '#003366'] },
+            shape: { type: 'circle' },
+            opacity: { value: 0.5, random: true },
+            size: { value: 3, random: true },
+            line_linked: { enable: true, distance: 150, color: '#FF10F0', opacity: 0.4, width: 1.5 },
+            move: { enable: true, speed: 2, direction: 'none', random: true }
+        },
+        interactivity: {
+            detect_on: 'canvas',
+            events: { onhover: { enable: true, mode: 'repulse' }, onclick: { enable: true, mode: 'push' } },
+            modes: { repulse: { distance: 100 }, push: { particles_nb: 4 } }
+        },
+        retina_detect: true
+    });
+</script>
+{% endblock %}

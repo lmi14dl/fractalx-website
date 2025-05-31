@@ -1,0 +1,44 @@
+{% extends '../base.html' %}
+{% load static i18n %}
+
+{% block title %}
+Privacy
+{% endblock %}
+
+{% block style %}
+<link href="{% static 'css/terms.css' %}" rel="stylesheet" />
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+
+<section class="terms-section">
+    <div class="particles" id="particles-contact"></div>
+    <br><br><br><br><br><br><br>
+    <div class="terms-items">
+        <h2>Terms</h2>
+        <p>
+            1. Web Design Services <br>
+            -	The client must fully specify all requirements before the project begins.<br>
+            -	Project delivery time depends on the complexity and required features and will be determined upon mutual agreement.<br>
+            -	Payments are made in stages (initial deposit – testing phase – final delivery).<br>
+            -	Free support is provided for one month after final delivery.<br>
+            -	Any structural changes beyond the initial agreement will incur additional costs.<br><br>
+            2. Telegram Bot Development<br>
+            -	Bots are developed based on Telegram’s official API and in line with security policies.<br>
+            -	Clients must provide accurate details, including the bot token.<br>
+            -	Services include admin panel design, automated responses, database connections, and payment gateway integration.<br>
+            -	Any misuse of bots is the responsibility of the client; we bear no liability.<br><br>
+            3. Trading Services<br>
+            -	Tools, analyses, and trading bots are provided solely to assist in decision-making.<br>
+            -	Use of our trading services does not guarantee profits.<br>
+            -	Users are responsible for the risks of their trades when using our services.<br>
+            -	If exchange APIs are used, the user is responsible for securing their API keys.<br>
+            -	We do not have any direct access to users' funds.<br>
+        </p>
+    </div>
+    <br><br><br><br><br><br><br><br>
+</section>
+
+
+{% endblock %}

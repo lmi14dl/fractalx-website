@@ -1,0 +1,42 @@
+{% extends '../base.html' %}
+{% load static i18n %}
+
+{% block title %}
+Privacy
+{% endblock %}
+
+{% block style %}
+<link href="{% static 'css/privacy.css' %}" rel="stylesheet" />
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+
+<section class="privacy-section">
+    <div class="particles" id="particles-contact"></div>
+    <br><br><br><br><br><br><br>
+    
+    <div class="privacy-items">
+        <h2>Privacy</h2>
+        <p>
+            1. Data Collection <br>
+            -	We only collect necessary information such as name, email, phone number, project data, and API addresses. <br>
+            -	Your information is never shared with third parties without your explicit permission. <br><br>
+            2. Use of Information <br>
+            -	Data is used strictly to execute projects, provide support, and improve service quality.<br>
+            -	Proprietary project information is kept strictly confidential. <br><br>
+            3. Data Security<br>
+            -	All user data is protected using encryption and secure server practices.<br>
+            -	Only authorized team members have access to sensitive information.<br><br>
+            4. Trading Information<br>
+            -	Any data related to exchange API keys or trading strategies provided by users is treated as strictly confidential and is never stored or shared.<br>
+            -	Users are solely responsible for securely storing their own API keys.<br><br>
+
+        </p>
+
+    </div>
+    <br><br><br><br><br><br><br><br>
+</section>
+
+
+{% endblock %}

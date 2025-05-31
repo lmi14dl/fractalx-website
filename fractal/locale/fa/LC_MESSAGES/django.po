@@ -1,0 +1,1523 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-31 09:50+0330\n"
+"PO-Revision-Date: 2025-05-22 13:00+0330\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Persian <fa@li.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: home/views.py:16 services/views.py:17 services/views.py:84
+msgid "Please add a phone number to your profile"
+msgstr "لطفاً یک شماره تلفن به پروفایل خود اضافه کنید"
+
+#: home/views.py:19 services/views.py:20 services/views.py:87
+msgid "Your request has been submitted successfully!"
+msgstr "درخواست شما با موفقیت ثبت شد!"
+
+#: home/views.py:22 services/views.py:23 services/views.py:90
+msgid "Please complete your profile with a phone number"
+msgstr "لطفاً پروفایل خود را با یک شماره تلفن تکمیل کنید"
+
+#: home/views.py:30 services/views.py:31 services/views.py:98
+msgid "The phone number should only contain digits!"
+msgstr "شماره تلفن باید فقط شامل ارقام باشد!"
+
+#: home/views.py:33 services/views.py:34 services/views.py:101
+msgid "The phone number should be 11 or 12 digits long!"
+msgstr "شماره تلفن باید ۱۱ یا ۱۲ رقمی باشد!"
+
+#: home/views.py:36 services/views.py:37 services/views.py:104
+#: users/forms.py:52 users/forms.py:111
+msgid "The phone number should start with 09 or 98!"
+msgstr "شماره تلفن باید با 09 یا 98 شروع شود!"
+
+#: home/views.py:40 services/views.py:108
+msgid "Your request has been submitted successfully"
+msgstr "درخواست شما با موفقیت ثبت شد"
+
+#: home/views.py:43 services/views.py:44 services/views.py:111
+msgid "Please fill in all required fields."
+msgstr "لطفاً تمام فیلدهای مورد نیاز را پر کنید."
+
+#: services/forms.py:16 services/forms.py:39
+msgid "Title"
+msgstr "عنوان"
+
+#: services/forms.py:17 services/forms.py:40
+#: templates/services/telegram_bot_portfolio.html:80
+#: templates/services/web_design_portfolio.html:79
+msgid "Description"
+msgstr "توضیحات"
+
+#: services/forms.py:18
+msgid "Design Type"
+msgstr "نوع طراحی"
+
+#: services/forms.py:26
+msgid "Please select a design type."
+msgstr "لطفا یک نوع طراحی را انتخاب کنید"
+
+#: services/models.py:45
+msgid "WordPress"
+msgstr "وردپرس"
+
+#: services/models.py:46
+msgid "Coding"
+msgstr "کدنویسی"
+
+#: services/views.py:65 services/views.py:131
+msgid "Your order sent successfully and wait for the response"
+msgstr "سفارش شما با موفقیت ارسال شد، منتظر پاسخ باشید"
+
+#: services/views.py:68 services/views.py:134
+msgid "Please check the form errors"
+msgstr "لطفاً خطاهای فرم را بررسی کنید"
+
+#: templates/base.html:10
+msgid "Modern Business - Start Bootstrap Template"
+msgstr "کسب‌وکار مدرن - قالب بوت‌استرپ شروع"
+
+#: templates/base.html:258 templates/base.html:363
+msgid "Home"
+msgstr "خانه"
+
+#: templates/base.html:263 templates/base.html:364
+msgid "About"
+msgstr "درباره ما"
+
+#: templates/base.html:268
+msgid "Contact"
+msgstr "تماس"
+
+#: templates/base.html:273 templates/base.html:366
+#: templates/home/support.html:6
+msgid "Support"
+msgstr "پشتیبانی"
+
+#: templates/base.html:283 templates/users/update_user.html:8
+msgid "Profile"
+msgstr "پروفایل"
+
+#: templates/base.html:287
+msgid "Logout"
+msgstr "خروج"
+
+#: templates/base.html:294 templates/users/login.html:9
+#: templates/users/login.html:34
+msgid "Login"
+msgstr "ورود"
+
+#: templates/base.html:299 templates/users/signup.html:9
+msgid "SignUp"
+msgstr "ثبت‌نام"
+
+#: templates/base.html:361
+msgid "Platform"
+msgstr "پلتفرم"
+
+#: templates/base.html:365 templates/home/about.html:101
+#: templates/home/contact.html:15 templates/home/support.html:49
+msgid "Contact Us"
+msgstr "تماس با ما"
+
+#: templates/base.html:370
+msgid "Services"
+msgstr "خدمات"
+
+#: templates/base.html:372 templates/home/index.html:376
+msgid "Web Design"
+msgstr "طراحی وب"
+
+#: templates/base.html:373
+msgid "Create Telegram Bot"
+msgstr "ساخت ربات تلگرام"
+
+#: templates/base.html:374
+msgid "Trading Cources"
+msgstr "دوره‌های معاملاتی"
+
+#: templates/base.html:378
+msgid "Portfolios"
+msgstr "نمونه‌کارها"
+
+#: templates/base.html:380 templates/services/web_design_portfolio.html:5
+msgid "Web Design Portfolios"
+msgstr "نمونه‌کارهای طراحی وب"
+
+#: templates/base.html:381 templates/services/telegram_bot_portfolio.html:5
+msgid "Telegram Bot Portfolios"
+msgstr "نمونه‌کارهای ربات تلگرام"
+
+#: templates/base.html:382
+msgid "Trading Tools Portfolios"
+msgstr "نمونه‌کارهای ابزارهای معاملاتی"
+
+#: templates/base.html:386
+msgid "Company"
+msgstr "شرکت"
+
+#: templates/base.html:388
+msgid "Privacy"
+msgstr "حریم خصوصی"
+
+#: templates/base.html:389
+msgid "Terms"
+msgstr "شرایط"
+
+#: templates/base.html:393
+msgid "Newsletter"
+msgstr "خبرنامه"
+
+#: templates/base.html:394
+msgid "Stay up to date with everything FractalX."
+msgstr "با همه چیز در FractalX به‌روز بمانید."
+
+#: templates/home/about.html:22
+msgid "About FractalX"
+msgstr "FractalX درباره"
+
+#: templates/home/about.html:23
+msgid ""
+"We are a creative team building the digital future with cutting-edge "
+"technology."
+msgstr ""
+"ما تیمی خلاق هستیم که با استفاده از فناوری‌های پیشرفته، آینده دیجیتال را "
+"می‌سازیم."
+
+#: templates/home/about.html:24 templates/home/index.html:39
+msgid "Learn More"
+msgstr "بیشتر بدانید"
+
+#: templates/home/about.html:33
+msgid "Our Team"
+msgstr "تیم ما"
+
+#: templates/home/about.html:43
+msgid "Milad Shourideh"
+msgstr "میلاد شوریده"
+
+#: templates/home/about.html:44
+msgid "Backend Developer & Security Pentester"
+msgstr "توسعه‌دهنده بک‌اند و تست‌کننده امنیت"
+
+#: templates/home/about.html:61
+msgid "Behnam Eskandari"
+msgstr "بهنام اسکندری"
+
+#: templates/home/about.html:62
+msgid "Content Creator & Trader"
+msgstr "تولیدکننده محتوا و معامله‌گر"
+
+#: templates/home/about.html:81
+msgid "Our Mission"
+msgstr "ماموریت ما"
+
+#: templates/home/about.html:82
+msgid ""
+"At FractalX, we are committed to delivering innovative digital solutions "
+"that elevate businesses to the next level. Using advanced technologies, we "
+"build the future today."
+msgstr ""
+"در FractalX، ما متعهد به ارائه راه‌حل‌های دیجیتال نوآورانه هستیم که کسب‌وکارها "
+"را به سطح بعدی ارتقا می‌دهند. با استفاده از فناوری‌های پیشرفته، ما امروز آینده "
+"را می‌سازیم."
+
+#: templates/home/about.html:99
+msgid "Join Us"
+msgstr "به ما بپیوندید"
+
+#: templates/home/about.html:100
+msgid "Ready to take your business to the next level? Get in touch with us!"
+msgstr "آماده‌اید تا کسب‌وکار خود را به سطح بعدی ببرید؟ با ما تماس بگیرید!"
+
+#: templates/home/index.html:35
+msgid "Create Cutting-Edge Websites, Telegram Bots and Trading Tools"
+msgstr "ساخت وب‌سایت‌های پیشرفته، ربات‌های تلگرام و ابزارهای معاملاتی"
+
+#: templates/home/index.html:36
+msgid ""
+"Quickly build responsive websites, custom bots, and advanced trading tools "
+"with FractalX, your one-stop platform for all digital solutions!"
+msgstr ""
+"با FractalX، پلتفرم همه‌جانبه برای تمام راه‌حل‌های دیجیتال، به‌سرعت وب‌سایت‌های "
+"پاسخ‌گو، ربات‌های سفارشی و ابزارهای معاملاتی پیشرفته بسازید!"
+
+#: templates/home/index.html:38
+msgid "Get Started"
+msgstr "شروع کنید"
+
+#: templates/home/index.html:51
+msgid "Website Development"
+msgstr "توسعه وب‌سایت"
+
+#: templates/home/index.html:52 templates/home/index.html:402
+msgid "Telegram Bot"
+msgstr "ربات تلگرام"
+
+#: templates/home/index.html:53 templates/home/index.html:428
+msgid "Trading Services"
+msgstr "خدمات معاملاتی"
+
+#: templates/home/index.html:71
+msgid "Our Services"
+msgstr "خدمات ما"
+
+#: templates/home/index.html:80 templates/home/index.html:104
+#: templates/home/index.html:170 templates/home/index.html:194
+#: templates/home/index.html:260 templates/home/index.html:284
+#: templates/services/telegram_bot_portfolio.html:99
+#: templates/services/web_design_portfolio.html:98
+msgid "Your browser does not support the video tag."
+msgstr "مرورگر شما از تگ ویدیو پشتیبانی نمی‌کند."
+
+#: templates/home/index.html:84
+msgid "Design Your Website"
+msgstr "وب‌سایت خود را طراحی کنید"
+
+#: templates/home/index.html:86
+msgid "Fast and professional dedicated website design with support."
+msgstr "طراحی وب‌سایت اختصاصی سریع و حرفه‌ای با پشتیبانی."
+
+#: templates/home/index.html:87
+msgid "Site design with modern technology and attractive UI/UX."
+msgstr "طراحی سایت با فناوری مدرن و رابط کاربری/تجربه کاربری جذاب."
+
+#: templates/home/index.html:90 templates/home/index.html:180
+#: templates/services/telegram_bot.html:137
+#: templates/services/web_design.html:127
+msgid "Portfolio"
+msgstr "نمونه‌کار"
+
+#: templates/home/index.html:91 templates/home/index.html:181
+#: templates/services/telegram_bot.html:138
+#: templates/services/web_design.html:128
+msgid "Order"
+msgstr "سفارش"
+
+#: templates/home/index.html:107 templates/home/index.html:197
+#: templates/home/index.html:287 templates/services/telegram_bot.html:150
+#: templates/services/telegram_bot.html:159
+#: templates/services/telegram_bot_portfolio.html:141
+#: templates/services/web_design.html:140
+#: templates/services/web_design.html:149
+#: templates/services/web_design_portfolio.html:106
+msgid "Close"
+msgstr "بستن"
+
+#: templates/home/index.html:118 templates/home/index.html:208
+#: templates/home/index.html:298 templates/services/telegram_bot.html:149
+#: templates/services/web_design.html:139
+msgid "Place Your Order"
+msgstr "سفارش خود را ثبت کنید"
+
+#: templates/home/index.html:123 templates/home/index.html:213
+#: templates/home/index.html:303 templates/services/telegram_bot.html:165
+#: templates/services/web_design.html:155
+msgid "Choose how you'd like to get in touch with us:"
+msgstr "نحوه ارتباط با ما را انتخاب کنید:"
+
+#: templates/home/index.html:126 templates/home/index.html:216
+#: templates/home/index.html:306 templates/services/telegram_bot.html:168
+#: templates/services/web_design.html:158
+msgid "Contact via Telegram"
+msgstr "تماس از طریق تلگرام"
+
+#: templates/home/index.html:136 templates/home/index.html:152
+#: templates/home/index.html:226 templates/home/index.html:242
+#: templates/home/index.html:316 templates/home/index.html:332
+#: templates/services/telegram_bot.html:175
+#: templates/services/telegram_bot.html:190
+#: templates/services/web_design.html:164
+#: templates/services/web_design.html:178
+msgid "Request a Call"
+msgstr "درخواست تماس"
+
+#: templates/home/index.html:158 templates/home/index.html:248
+#: templates/home/index.html:338 templates/services/telegram_bot.html:196
+#: templates/services/web_design.html:184
+msgid "Fill Full Order Form"
+msgstr "تکمیل فرم سفارش کامل"
+
+#: templates/home/index.html:174
+msgid "Create a Telegram Bot"
+msgstr "ساخت ربات تلگرام"
+
+#: templates/home/index.html:176
+msgid "Fast and professional dedicated Telegram Bots with support."
+msgstr "ربات‌های تلگرام اختصاصی سریع و حرفه‌ای با پشتیبانی."
+
+#: templates/home/index.html:177
+msgid "Modern Telegram Bots with lots of options and features."
+msgstr "ربات‌های تلگرام مدرن با گزینه‌ها و ویژگی‌های متعدد."
+
+#: templates/home/index.html:264
+msgid "Trading Tools & Bots"
+msgstr "ابزارها و ربات‌های معاملاتی"
+
+#: templates/home/index.html:266
+msgid ""
+"From indicators to full auto-trading bots, get customized trading tools "
+"built for you."
+msgstr ""
+"از اندیکاتورها تا ربات‌های معاملاتی تمام‌خودکار، ابزارهای معاملاتی سفارشی برای "
+"شما ساخته می‌شود."
+
+#: templates/home/index.html:267
+msgid "Modern Trading tools with lots of options and features."
+msgstr "ابزارهای معاملاتی مدرن با گزینه‌ها و ویژگی‌های متعدد."
+
+#: templates/home/index.html:270 templates/home/index.html:271
+msgid "Coming soon"
+msgstr "به زودی"
+
+#: templates/home/index.html:379
+msgid "Corporate Website"
+msgstr "وب‌سایت شرکتی"
+
+#: templates/home/index.html:380
+msgid ""
+"Custom design with content management capabilities, compatible with all "
+"devices, and optimized for search engines"
+msgstr ""
+"طراحی سفارشی با قابلیت‌های مدیریت محتوا، سازگار با تمام دستگاه‌ها و بهینه‌سازی "
+"شده برای موتورهای جستجو"
+
+#: templates/home/index.html:382
+msgid "#WebDesign"
+msgstr "#طراحی_وب"
+
+#: templates/home/index.html:383
+msgid "#ResponsiveDesign"
+msgstr "#طراحی_پاسخگو"
+
+#: templates/home/index.html:384
+msgid "#CMS"
+msgstr "#سیستم_مدیریت_محتوا"
+
+#: templates/home/index.html:385
+msgid "#SEO"
+msgstr "#بهینه‌سازی_موتور_جستجو"
+
+#: templates/home/index.html:390
+msgid "Online Store"
+msgstr "فروشگاه آنلاین"
+
+#: templates/home/index.html:391
+msgid ""
+"Launch an online store with a dedicated payment gateway, product management "
+"system, and advanced reporting"
+msgstr ""
+"راه‌اندازی فروشگاه آنلاین با درگاه پرداخت اختصاصی، سیستم مدیریت محصولات و "
+"گزارش‌گیری پیشرفته"
+
+#: templates/home/index.html:393
+msgid "#Ecommerce"
+msgstr "#تجارت_الکترونیک"
+
+#: templates/home/index.html:394
+msgid "#OnlineStore"
+msgstr "#فروشگاه_آنلاین"
+
+#: templates/home/index.html:395
+msgid "#PaymentGateway"
+msgstr "#درگاه_پرداخت"
+
+#: templates/home/index.html:396
+msgid "#ProductManagement"
+msgstr "#مدیریت_محصولات"
+
+#: templates/home/index.html:405
+msgid "Marketing Bot"
+msgstr "ربات بازاریابی"
+
+#: templates/home/index.html:406
+msgid ""
+"Development of smart bots for advertising campaigns, audience engagement, "
+"and automated user interaction"
+msgstr ""
+"توسعه ربات‌های هوشمند برای کمپین‌های تبلیغاتی، تعامل با مخاطبان و تعامل خودکار "
+"با کاربران"
+
+#: templates/home/index.html:408
+msgid "#MarketingBot"
+msgstr "#ربات_بازاریابی"
+
+#: templates/home/index.html:409 templates/home/index.html:421
+msgid "#Chatbot"
+msgstr "#چت‌بات"
+
+#: templates/home/index.html:410
+msgid "#Automation"
+msgstr "#اتوماسیون"
+
+#: templates/home/index.html:411
+msgid "#AudienceEngagement"
+msgstr "#تعامل_با_مخاطب"
+
+#: templates/home/index.html:416
+msgid "Service Bot"
+msgstr "ربات خدماتی"
+
+#: templates/home/index.html:417
+msgid ""
+"Implementation of support, reservation, and customer service bots with "
+"customizable features"
+msgstr ""
+"پیاده‌سازی ربات‌های پشتیبانی، رزرو و خدمات مشتریان با ویژگی‌های قابل تنظیم"
+
+#: templates/home/index.html:419
+msgid "#ServiceBot"
+msgstr "#ربات_خدماتی"
+
+#: templates/home/index.html:420
+msgid "#CustomerSupport"
+msgstr "#پشتیبانی_مشتری"
+
+#: templates/home/index.html:422
+msgid "#AI"
+msgstr "#هوش_مصنوعی"
+
+#: templates/home/index.html:431
+msgid "Smart Signal Generation"
+msgstr "تولید سیگنال هوشمند"
+
+#: templates/home/index.html:432
+msgid ""
+"Providing accurate signals using AI algorithms, advanced technical analysis, "
+"and real-time market data integration"
+msgstr ""
+"ارائه سیگنال‌های دقیق با استفاده از الگوریتم‌های هوش مصنوعی، تحلیل تکنیکال "
+"پیشرفته و یکپارچگی داده‌های بازار در زمان واقعی"
+
+#: templates/home/index.html:434
+msgid "#TradingSignals"
+msgstr "#سیگنال‌های_معاملاتی"
+
+#: templates/home/index.html:435
+msgid "#AIinTrading"
+msgstr "#هوش_مصنوعی_در_معاملات"
+
+#: templates/home/index.html:436
+msgid "#TechnicalAnalysis"
+msgstr "#تحلیل_تکنیکال"
+
+#: templates/home/index.html:437
+msgid "#MarketData"
+msgstr "#داده‌های_بازار"
+
+#: templates/home/index.html:442
+msgid "Trading Bot"
+msgstr "ربات معاملاتی"
+
+#: templates/home/index.html:443
+msgid ""
+"Development of automated trading bots with custom strategies and smart "
+"capital management"
+msgstr ""
+"توسعه ربات‌های معاملاتی خودکار با استراتژی‌های سفارشی و مدیریت هوشمند سرمایه"
+
+#: templates/home/index.html:445
+msgid "#TradingBot"
+msgstr "ربات_معاملاتی#"
+
+#: templates/home/index.html:446
+msgid "#AlgoTrading"
+msgstr "#معاملات_الگوریتمی"
+
+#: templates/home/index.html:447
+msgid "#AutomatedTrading"
+msgstr "#تریدـخودکار"
+
+#: templates/home/index.html:448
+msgid "#CapitalManagement"
+msgstr "#مدیریت_سرمایه"
+
+#: templates/home/index.html:460
+msgid "Our History"
+msgstr "تاریخچه ما"
+
+#: templates/home/index.html:465
+msgid ""
+"In 2023, we started our journey by combining expertise in programming and "
+"design to offer custom website development. Around the same time, we built "
+"our first Telegram bots for Iranian businesses and gradually "
+"introduced trading support services to our portfolio."
+msgstr ""
+"در سال ۲۰۲۳، با ترکیب تخصص‌های برنامه‌نویسی و طراحی، فعالیت خود را با طراحی "
+"سایت‌های اختصاصی آغاز کردیم. همزمان، اولین ربات‌های تلگرام را برای کسب‌وکارهای "
+"ایرانی توسعه دادیم و به مرور، سرویس‌های آموزشی تریدینگ نیز به مجموعه اضافه شد."
+
+#: templates/home/index.html:471
+msgid ""
+"After a year of experience, we expanded our services to include advanced "
+"Telegram bot development and trading mentorship. Earning the trust of dozens "
+"of clients, we established ourselves as a reliable tech and finance "
+"solutions provider."
+msgstr ""
+"پس از یک سال تجربه، خدمات طراحی ربات‌های پیشرفته تلگرام و پشتیبانی تریدینگ را "
+"گسترش دادیم. با جلب اعتماد ده‌ها مشتری، به یکی از تیم‌های شناخته‌شده در حوزه "
+"فناوری و مالی تبدیل شدیم."
+
+#: templates/home/index.html:477
+msgid ""
+"This year, we’re taking big leaps forward with integrated trading "
+"services, AI-powered bot optimizations, and premium web design. Our goal? To "
+"become a full-scale digital tech hub for Iranian users."
+msgstr ""
+"امسال با ارائه سرویس‌های یکپارچه تریدینگ، بهینه‌سازی هوش مصنوعی در "
+"ربات‌ها و طراحی سایت‌های حرفه‌ای، گام‌های بلندی در مسیر تحول دیجیتال برداشته‌ایم. "
+"هدف ما تبدیل شدن به یک پلتفرم جامع فناوری برای کاربران ایرانی است."
+
+#: templates/home/support.html:16
+msgid "Frequently Asked Questions"
+msgstr "سوالات متداول"
+
+#: templates/home/support.html:18
+msgid "What services do you offer?"
+msgstr "چه خدماتی ارائه می‌دهید؟"
+
+#: templates/home/support.html:20
+msgid ""
+"We provide web design, Telegram bot development, and trading tools tailored "
+"to your needs."
+msgstr ""
+"ما خدمات طراحی وب، توسعه ربات تلگرام و ابزارهای معاملاتی متناسب با نیازهای "
+"شما ارائه می‌دهیم."
+
+#: templates/home/support.html:25
+msgid "How can I place an order?"
+msgstr "چگونه می‌توانم سفارش ثبت کنم؟"
+
+#: templates/home/support.html:27
+msgid ""
+"You can place an order via Telegram, request a call, or fill out our online "
+"order form."
+msgstr ""
+"شما می‌توانید از طریق تلگرام، درخواست تماس یا تکمیل فرم سفارش آنلاین، سفارش "
+"خود را ثبت کنید."
+
+#: templates/home/support.html:32
+msgid "What is the turnaround time for a project?"
+msgstr "زمان تحویل پروژه چقدر است؟"
+
+#: templates/home/support.html:34
+msgid ""
+"Turnaround time depends on the project complexity, typically ranging from 1 "
+"to 4 weeks."
+msgstr ""
+"زمان تحویل پروژه به پیچیدگی آن بستگی دارد، اما معمولاً بین ۱ تا ۴ هفته است."
+
+#: templates/home/support.html:39
+msgid "Do you offer support after project completion?"
+msgstr "آیا پس از تکمیل پروژه پشتیبانی ارائه می‌دهید؟"
+
+#: templates/home/support.html:41
+msgid ""
+"Yes, we provide ongoing support and updates to ensure your project runs "
+"smoothly."
+msgstr ""
+"بله، ما پشتیبانی مداوم و به‌روزرسانی‌هایی ارائه می‌دهیم تا اطمینان حاصل شود "
+"پروژه شما به‌خوبی اجرا می‌شود."
+
+#: templates/services/telegram_bot.html:6
+#: templates/services/telegram_bot.html:35
+msgid "Telegram Bots"
+msgstr "ربات های تلگرام"
+
+#: templates/services/telegram_bot.html:29
+#: templates/services/web_design.html:22
+msgid "Back"
+msgstr "برگشت"
+
+#: templates/services/telegram_bot.html:35
+msgid "Types, Functionalities, Services, Applications, and Advantages"
+msgstr "انواع، عملکردها، خدمات، کاربردها و مزایا"
+
+#: templates/services/telegram_bot.html:37
+msgid ""
+"Telegram bots are automated software applications integrated into the "
+"Telegram messaging platform, designed to interact with users via text, "
+"commands, or inline queries. Built using Telegram’s <span class=\"ltr-"
+"inline\">Bot API</span>, these bots can perform a wide range of tasks, from "
+"simple notifications to complex business automation. They are highly "
+"versatile, customizable, and accessible, making them popular for personal, "
+"professional, and commercial use."
+msgstr ""
+"ربات‌های تلگرام برنامه‌های نرم‌افزاری خودکاری هستند که در پلتفرم پیام‌رسانی "
+"تلگرام ادغام شده‌اند و برای تعامل با کاربران از طریق متن، دستورات یا "
+"پرس‌وجوهای درون‌خطی طراحی شده‌اند. این ربات‌ها که با استفاده از API ربات تلگرام "
+"ساخته شده‌اند، می‌توانند طیف گسترده‌ای از وظایف را انجام دهند، از اعلان‌های ساده "
+"گرفته تا اتوماسیون پیچیده کسب‌وکار. آنها بسیار متنوع، قابل تنظیم و قابل دسترس "
+"هستند و این ویژگی‌ها آنها را برای استفاده‌های شخصی، حرفه‌ای و تجاری محبوب کرده "
+"است."
+
+#: templates/services/telegram_bot.html:41
+msgid "Telegram Bots Hero"
+msgstr ""
+
+#: templates/services/telegram_bot.html:45
+msgid "Types of Telegram Bots"
+msgstr "انواع ربات تلگرام"
+
+#: templates/services/telegram_bot.html:48
+msgid "Utility Bots"
+msgstr "ربات‌های کاربردی"
+
+#: templates/services/telegram_bot.html:49
+msgid ""
+"These handle practical tasks like reminders, weather updates, or unit "
+"conversions. Examples include bots for scheduling or currency exchange rates."
+msgstr ""
+"این ربات‌ها وظایف عملی مانند یادآوری، به‌روزرسانی آب و هوا یا تبدیل واحدها را "
+"انجام می‌دهند. نمونه‌ها شامل ربات‌های برنامه‌ریزی یا نرخ ارز می‌شوند."
+
+#: templates/services/telegram_bot.html:53
+msgid "Entertainment Bots"
+msgstr "ربات‌های سرگرمی"
+
+#: templates/services/telegram_bot.html:54
+msgid ""
+"Designed for fun, these offer games, quizzes, memes, or music downloads. For "
+"instance, <span class=\"ltr-inline\">@QuizBot</span> provides trivia "
+"challenges."
+msgstr ""
+"این ربات‌ها برای سرگرمی طراحی شده‌اند و بازی‌ها، آزمون‌ها، میم‌ها یا دانلود "
+"موسیقی ارائه می‌دهند. به عنوان مثال، @QuizBot چالش‌های سرگرمی ارائه می‌دهد."
+
+#: templates/services/telegram_bot.html:58
+msgid "Informational Bots"
+msgstr "ربات‌های اطلاعاتی"
+
+#: templates/services/telegram_bot.html:59
+msgid ""
+"These deliver news, stock market updates, or Wikipedia summaries. <span "
+"class=\"ltr-inline\">@BBC_NewsBot</span>, for example, shares real-time news."
+msgstr ""
+"این ربات‌ها اخبار، به‌روزرسانی‌های بازار سهام یا خلاصه‌های ویکی‌پدیا را ارائه "
+"می‌دهند. به عنوان مثال، @BBC_NewsBot اخبار لحظه‌ای را به اشتراک می‌گذارد."
+
+#: templates/services/telegram_bot.html:63
+msgid "E-commerce Bots"
+msgstr "ربات‌های تجارت الکترونیک"
+
+#: templates/services/telegram_bot.html:64
+msgid ""
+"Used for online shopping, these manage product catalogs, payments, and order "
+"tracking. <span class=\"ltr-inline\">@ShopBot</span> is an example."
+msgstr ""
+"این ربات‌ها برای خرید آنلاین استفاده می‌شوند و کاتالوگ محصولات، پرداخت‌ها و "
+"پیگیری سفارشات را مدیریت می‌کنند. @ShopBot یک نمونه است."
+
+#: templates/services/telegram_bot.html:68
+msgid "Customer Service Bots"
+msgstr "ربات‌های خدمات مشتری"
+
+#: templates/services/telegram_bot.html:69
+msgid ""
+"These automate support for businesses, handling FAQs, ticketing, or user "
+"feedback. Many companies use custom bots for 24/7 support."
+msgstr ""
+"این ربات‌ها پشتیبانی خودکار برای کسب‌وکارها ارائه می‌دهند و سوالات متداول، "
+"تیکت‌ها یا بازخورد کاربران را مدیریت می‌کنند. بسیاری از شرکت‌ها از ربات‌های "
+"سفارشی برای پشتیبانی 24/7 استفاده می‌کنند."
+
+#: templates/services/telegram_bot.html:73
+msgid "Productivity Bots"
+msgstr "ربات‌های بهره‌وری"
+
+#: templates/services/telegram_bot.html:74
+msgid ""
+"These assist with task management, note-taking, or file conversion. <span "
+"class=\"ltr-inline\">@TodoBot</span> helps users manage to-do lists."
+msgstr ""
+"این ربات‌ها در مدیریت وظایف، یادداشت‌برداری یا تبدیل فایل کمک می‌کنند. @TodoBot "
+"به کاربران در مدیریت لیست کارها کمک می‌کند."
+
+#: templates/services/telegram_bot.html:78
+msgid "Social Media Bots"
+msgstr "ربات‌های شبکه‌های اجتماعی"
+
+#: templates/services/telegram_bot.html:79
+msgid ""
+"These integrate with platforms like <span class=\"ltr-inline\">Twitter</"
+"span> or <span class=\"ltr-inline\">Instagram</span> to schedule posts or "
+"fetch content. <span class=\"ltr-inline\">@InstaBot</span> can download "
+"<span class=\"ltr-inline\">Instagram</span> media."
+msgstr ""
+"این ربات‌ها با پلتفرم‌هایی مانند توییتر یا اینستاگرام ادغام می‌شوند تا پست‌ها را "
+"برنامه‌ریزی کنند یا محتوا را دریافت کنند. @InstaBot می‌تواند رسانه‌های "
+"اینستاگرام را دانلود کند."
+
+#: templates/services/telegram_bot.html:83
+msgid "Custom Bots"
+msgstr "ربات‌های سفارشی"
+
+#: templates/services/telegram_bot.html:84
+msgid ""
+"Built for specific needs, such as community management, event planning, or "
+"niche services, tailored to individual or business requirements."
+msgstr ""
+"این ربات‌ها برای نیازهای خاص مانند مدیریت جامعه، برنامه‌ریزی رویدادها یا خدمات "
+"تخصصی ساخته شده‌اند و متناسب با نیازهای فردی یا کسب‌وکار تنظیم می‌شوند."
+
+#: templates/services/telegram_bot.html:89
+msgid "Functionalities of Telegram Bots"
+msgstr "قابلیت‌های ربات‌های تلگرام"
+
+#: templates/services/telegram_bot.html:91
+msgid "Send text, images, videos, or files."
+msgstr "ارسال متن، تصاویر، ویدیوها یا فایل‌ها."
+
+#: templates/services/telegram_bot.html:92
+msgid ""
+"Process payments via integrated gateways like <span class=\"ltr-"
+"inline\">Stripe</span>."
+msgstr "پردازش پرداخت‌ها از طریق درگاه‌های یکپارچه مانند Stripe."
+
+#: templates/services/telegram_bot.html:93
+msgid ""
+"Integrate with external APIs for real-time data (e.g., weather, news, or "
+"stock prices)."
+msgstr ""
+"ادغام با APIهای خارجی برای داده‌های لحظه‌ای (مثلاً آب و هوا، اخبار یا قیمت "
+"سهام)."
+
+#: templates/services/telegram_bot.html:94
+msgid "Support multiple languages for global accessibility."
+msgstr "پشتیبانی از چندین زبان برای دسترسی جهانی."
+
+#: templates/services/telegram_bot.html:95
+msgid ""
+"Offer interactive menus, buttons, or keyboards for user-friendly navigation."
+msgstr "ارائه منوهای تعاملی، دکمه‌ها یا صفحه‌کلیدها برای پیمایش کاربرپسند."
+
+#: templates/services/telegram_bot.html:96
+msgid "Enable group management, such as moderating chats or banning spam."
+msgstr "مدیریت گروه‌ها، مانند نظارت بر چت‌ها یا مسدود کردن اسپم."
+
+#: templates/services/telegram_bot.html:99
+msgid "Services Provided by Telegram Bots"
+msgstr "خدمات ارائه شده توسط ربات‌های تلگرام"
+
+#: templates/services/telegram_bot.html:101
+msgid "Automation"
+msgstr "خودکارسازی"
+
+#: templates/services/telegram_bot.html:101
+msgid ""
+"Bots automate repetitive tasks like sending reminders or posting updates."
+msgstr ""
+"ربات‌ها وظایف تکراری مانند ارسال یادآوری‌ها یا انتشار به‌روزرسانی‌ها را خودکار "
+"می‌کنند."
+
+#: templates/services/telegram_bot.html:102
+msgid "Customer Support"
+msgstr "پشتیبانی مشتری"
+
+#: templates/services/telegram_bot.html:102
+msgid ""
+"They handle inquiries, provide FAQs, or escalate issues to human agents."
+msgstr ""
+"آنها استعلام‌ها را مدیریت می‌کنند، سوالات متداول را ارائه می‌دهند یا مسائل را "
+"به نمایندگان انسانی ارجاع می‌دهند."
+
+#: templates/services/telegram_bot.html:103
+msgid "Content Delivery"
+msgstr "تحویل محتوا"
+
+#: templates/services/telegram_bot.html:103
+msgid "Bots share news, blogs, or educational resources instantly."
+msgstr "ربات‌ها اخبار، وبلاگ‌ها یا منابع آموزشی را فوراً به اشتراک می‌گذارند."
+
+#: templates/services/telegram_bot.html:104
+msgid "E-commerce"
+msgstr "تجارت الکترونیک"
+
+#: templates/services/telegram_bot.html:104
+msgid "They manage product listings, process orders, and track shipments."
+msgstr ""
+"آنها لیست محصولات را مدیریت می‌کنند، سفارشات را پردازش می‌کنند و محموله‌ها را "
+"پیگیری می‌کنند."
+
+#: templates/services/telegram_bot.html:105
+msgid "Data Collection"
+msgstr "جمع‌آوری داده"
+
+#: templates/services/telegram_bot.html:105
+msgid ""
+"Bots gather user feedback, conduct surveys, or store data for analytics."
+msgstr ""
+"ربات‌ها بازخورد کاربران را جمع‌آوری می‌کنند، نظرسنجی‌ها را انجام می‌دهند یا "
+"داده‌ها را برای تحلیل ذخیره می‌کنند."
+
+#: templates/services/telegram_bot.html:106
+msgid "Entertainment"
+msgstr "سرگرمی"
+
+#: templates/services/telegram_bot.html:106
+msgid "They offer games, music, or personalized content recommendations."
+msgstr "آنها بازی‌ها، موسیقی یا توصیه‌های محتوای شخصی‌سازی شده ارائه می‌دهند."
+
+#: templates/services/telegram_bot.html:107
+msgid "Integration"
+msgstr "یکپارچه‌سازی"
+
+#: templates/services/telegram_bot.html:107
+msgid ""
+"Bots connect with tools like <span class=\"ltr-inline\">Google Drive</span>, "
+"<span class=\"ltr-inline\">Trello</span>, or <span class=\"ltr-inline\">CRM</"
+"span> systems for seamless workflows."
+msgstr ""
+"ربات‌ها با ابزارهایی مانند Google Drive، Trello یا سیستم‌های CRM برای گردش کار "
+"بی‌درز ارتباط برقرار می‌کنند."
+
+#: templates/services/telegram_bot.html:111
+msgid "Application Areas"
+msgstr "حوزه‌های کاربردی"
+
+#: templates/services/telegram_bot.html:113
+msgid "Business"
+msgstr "کسب‌وکار"
+
+#: templates/services/telegram_bot.html:113
+msgid "Customer service, marketing, and sales automation."
+msgstr "خدمات مشتری، بازاریابی و خودکارسازی فروش."
+
+#: templates/services/telegram_bot.html:114
+msgid "Education"
+msgstr "آموزش"
+
+#: templates/services/telegram_bot.html:114
+msgid "Quiz bots, language learning, or course reminders."
+msgstr "ربات‌های آزمون، یادگیری زبان یا یادآوری دوره‌ها."
+
+#: templates/services/telegram_bot.html:115
+msgid "Healthcare"
+msgstr "مراقبت بهداشتی"
+
+#: templates/services/telegram_bot.html:115
+msgid "Appointment scheduling or health tips."
+msgstr "برنامه‌ریزی قرار ملاقات یا نکات سلامتی."
+
+#: templates/services/telegram_bot.html:116
+msgid "Finance"
+msgstr "امور مالی"
+
+#: templates/services/telegram_bot.html:116
+msgid "Budget tracking, stock alerts, or crypto price updates."
+msgstr "پیگیری بودجه، هشدارهای سهام یا به‌روزرسانی قیمت ارزهای دیجیتال."
+
+#: templates/services/telegram_bot.html:117
+msgid "Community Management"
+msgstr "مدیریت جامعه"
+
+#: templates/services/telegram_bot.html:117
+msgid "Moderating groups or organizing events."
+msgstr "نظارت بر گروه‌ها یا سازماندهی رویدادها."
+
+#: templates/services/telegram_bot.html:118
+msgid "Personal Use"
+msgstr "استفاده شخصی"
+
+#: templates/services/telegram_bot.html:118
+msgid "Task management, fitness tracking, or habit building."
+msgstr "مدیریت وظایف، پیگیری تناسب اندام یا ایجاد عادات."
+
+#: templates/services/telegram_bot.html:121
+msgid "Advantages of Telegram Bots"
+msgstr "مزایای ربات‌های تلگرام"
+
+#: templates/services/telegram_bot.html:123
+msgid "Accessibility"
+msgstr "دسترسی پذیری"
+
+#: templates/services/telegram_bot.html:123
+msgid ""
+"Bots are easy to use, requiring no app downloads—just a Telegram account."
+msgstr ""
+"استفاده از ربات‌ها آسان است و نیازی به دانلود برنامه ندارد - فقط یک حساب "
+"تلگرام لازم است."
+
+#: templates/services/telegram_bot.html:124
+msgid "Cost-Effective"
+msgstr "مقرون به صرفه"
+
+#: templates/services/telegram_bot.html:124
+msgid "Many bots are free, and custom bots are affordable to develop."
+msgstr ""
+"بسیاری از ربات‌ها رایگان هستند و توسعه ربات‌های سفارشی مقرون به صرفه است."
+
+#: templates/services/telegram_bot.html:125
+msgid "Scalability"
+msgstr "مقیاس پذیری"
+
+#: templates/services/telegram_bot.html:125
+msgid ""
+"Bots handle thousands of users simultaneously without performance issues."
+msgstr "ربات‌ها هزاران کاربر را به طور همزمان بدون مشکل عملکردی مدیریت می‌کنند."
+
+#: templates/services/telegram_bot.html:126
+msgid "Customization"
+msgstr "سفارشی سازی"
+
+#: templates/services/telegram_bot.html:126
+msgid ""
+"Developers can tailor bots to specific needs using Telegram’s flexible <span "
+"class=\"ltr-inline\">API</span>."
+msgstr ""
+"توسعه‌دهندگان می‌توانند ربات‌ها را با استفاده از API انعطاف‌پذیر تلگرام متناسب "
+"با نیازهای خاص تنظیم کنند."
+
+#: templates/services/telegram_bot.html:127
+msgid "Security"
+msgstr "امنیت"
+
+#: templates/services/telegram_bot.html:127
+msgid "Telegram’s end-to-end encryption ensures secure interactions."
+msgstr "رمزنگاری end-to-end تلگرام تعاملات امن را تضمین می‌کند."
+
+#: templates/services/telegram_bot.html:128
+msgid "Cross-Platform"
+msgstr "چند پلتفرمی"
+
+#: templates/services/telegram_bot.html:128
+msgid "Bots work on mobile, desktop, or web versions of Telegram."
+msgstr "ربات‌ها در نسخه‌های موبایل، دسکتاپ یا وب تلگرام کار می‌کنند."
+
+#: templates/services/telegram_bot.html:129
+msgid "24/7 Availability"
+msgstr "دسترسی 24/7"
+
+#: templates/services/telegram_bot.html:129
+msgid "Bots provide instant responses, improving user experience."
+msgstr "ربات‌ها پاسخ‌های فوری ارائه می‌دهند و تجربه کاربری را بهبود می‌بخشند."
+
+#: templates/services/telegram_bot.html:133
+#: templates/services/web_design.html:123
+msgid ""
+"Let us help you turn your ideas into a powerful digital presence. With our "
+"innovative approach and deep technical know-how, you'll stand out in the "
+"digital world."
+msgstr ""
+"بگذارید به شما کمک کنیم ایده‌هایتان را به حضوری قدرتمند در دنیای دیجیتال "
+"تبدیل کنید. با رویکرد نوآورانه و دانش فنی عمیق ما، در دنیای دیجیتال متمایز "
+"خواهید شد."
+
+#: templates/services/telegram_bot.html:184
+#: templates/services/web_design.html:172
+msgid "Your Name"
+msgstr "نام شما"
+
+#: templates/services/telegram_bot.html:187
+#: templates/services/web_design.html:175 templates/users/signup.html:48
+#: templates/users/update_user.html:48
+msgid "Phone Number"
+msgstr "شماره تماس"
+
+#: templates/services/telegram_bot_order_form.html:5
+#, fuzzy
+#| msgid "Telegram Bot"
+msgid "Telegram Bot Order Form"
+msgstr "ربات تلگرام"
+
+#: templates/services/telegram_bot_order_form.html:18
+msgid "Telegram Bot Order"
+msgstr "سفارش ربات تلگرام"
+
+#: templates/services/telegram_bot_order_form.html:19
+#: templates/services/web_design_order_form.html:19
+msgid "Fill in your project details, and our team will get in touch with you."
+msgstr ""
+"جزییات پروژه خود را در فرم زیر وارد کنید و تیم ما با شما در تماس خواهد بود"
+
+#: templates/services/telegram_bot_order_form.html:42
+#: templates/services/web_design_order_form.html:49
+msgid "Submit Order"
+msgstr "ثبت سفارش"
+
+#: templates/services/telegram_bot_portfolio.html:17
+msgid "Telegram Bot Portfolio"
+msgstr "نمونه‌کارهای ربات تلگرام"
+
+#: templates/services/telegram_bot_portfolio.html:18
+msgid "Here are some of the best Telegram Bots we’ve created for our clients."
+msgstr ""
+"در اینجا چند نمونه از بهترین ربات های تلگرامی که توسط ما ساخته شده را "
+"میتوانید ببینید"
+
+#: templates/services/telegram_bot_portfolio.html:46
+#: templates/services/telegram_bot_portfolio.html:132
+#: templates/services/web_design_portfolio.html:46
+#: templates/services/web_design_portfolio.html:131
+msgid "Previous"
+msgstr "قبل"
+
+#: templates/services/telegram_bot_portfolio.html:50
+#: templates/services/telegram_bot_portfolio.html:136
+#: templates/services/web_design_portfolio.html:50
+#: templates/services/web_design_portfolio.html:135
+msgid "Next"
+msgstr "بعد"
+
+#: templates/services/telegram_bot_portfolio.html:58
+#: templates/services/web_design_portfolio.html:58
+msgid "View Details"
+msgstr "مشاهده جزییات"
+
+#: templates/services/telegram_bot_portfolio.html:96
+msgid "Video"
+msgstr "ویدیو"
+
+#: templates/services/telegram_bot_portfolio.html:103
+#: templates/services/web_design_portfolio.html:102
+msgid "No video available"
+msgstr "ویدیویی در دسترس نیست"
+
+#: templates/services/telegram_bot_portfolio.html:118
+#: templates/services/web_design_portfolio.html:117
+msgid "Images"
+msgstr "تصاویر"
+
+#: templates/services/trading_tutorial.html:5
+#, fuzzy
+#| msgid "Tutorial"
+msgid "Trading Tutorial"
+msgstr "آموزش"
+
+#: templates/services/web_design.html:7
+msgid "Web Design Services"
+msgstr "خدمات ساخت سایت"
+
+#: templates/services/web_design.html:28
+msgid "Create Stunning Websites That Perform"
+msgstr "طراحی وبسایت‌های خیره‌کننده و کارآمد"
+
+#: templates/services/web_design.html:30
+msgid "At"
+msgstr "در"
+
+#: templates/services/web_design.html:30
+msgid ""
+"we specialize in designing and building visually stunning and highly "
+"functional websites. Whether you're a startup or an enterprise, our custom-"
+"tailored designs are optimized for performance, SEO, and user experience."
+msgstr ""
+"ما در طراحی و ساخت وب‌سایت‌های خیره‌کننده و بسیار کاربردی تخصص داریم. چه "
+"استارت‌آپ باشید چه شرکت بزرگ، طراحی‌های سفارشی ما برای عملکرد، سئو و تجربه "
+"کاربری بهینه‌سازی شده‌اند."
+
+#: templates/services/web_design.html:34
+#, fuzzy
+#| msgid "Web Design"
+msgid "Web Design Hero"
+msgstr "طراحی وب"
+
+#: templates/services/web_design.html:38
+msgid "Types of sites and their advantages and features"
+msgstr "انواع سایت‌ها و مزایا و ویژگی‌های آنها"
+
+#: templates/services/web_design.html:41
+msgid "Business/Corporate Websites"
+msgstr "وبسایت‌های تجاری/شرکتی"
+
+#: templates/services/web_design.html:42 templates/services/web_design.html:50
+#: templates/services/web_design.html:58 templates/services/web_design.html:66
+#: templates/services/web_design.html:74 templates/services/web_design.html:82
+#: templates/services/web_design.html:90 templates/services/web_design.html:98
+#: templates/services/web_design.html:106
+#: templates/services/web_design.html:114
+msgid "Description:"
+msgstr "توضیحات:"
+
+#: templates/services/web_design.html:42
+msgid ""
+"These sites are designed to officially introduce companies, organizations, "
+"or brands. They include contact information, services, products, company "
+"mission, and related news."
+msgstr ""
+"این سایت‌ها برای معرفی رسمی شرکت‌ها، سازمان‌ها یا برندها طراحی شده‌اند. شامل "
+"اطلاعات تماس، خدمات، محصولات، مأموریت شرکت و اخبار مرتبط می‌شوند."
+
+#: templates/services/web_design.html:44 templates/services/web_design.html:52
+#: templates/services/web_design.html:60 templates/services/web_design.html:68
+#: templates/services/web_design.html:76 templates/services/web_design.html:84
+#: templates/services/web_design.html:92 templates/services/web_design.html:100
+#: templates/services/web_design.html:108
+#: templates/services/web_design.html:116
+msgid "Target audience:"
+msgstr "مخاطبان هدف:"
+
+#: templates/services/web_design.html:44
+msgid "Small and large businesses, government and private organizations."
+msgstr "کسب‌وکارهای کوچک و بزرگ، سازمان‌های دولتی و خصوصی."
+
+#: templates/services/web_design.html:45 templates/services/web_design.html:53
+#: templates/services/web_design.html:61 templates/services/web_design.html:69
+#: templates/services/web_design.html:77 templates/services/web_design.html:85
+#: templates/services/web_design.html:93 templates/services/web_design.html:101
+#: templates/services/web_design.html:109
+#: templates/services/web_design.html:117
+msgid "Advantages:"
+msgstr "مزایا:"
+
+#: templates/services/web_design.html:45
+msgid ""
+"Increase brand credibility, attract B2B customers, provide official "
+"information."
+msgstr "افزایش اعتبار برند، جذب مشتریان تجاری (بی ۲ بی)، ارائه اطلاعات رسمی."
+
+#: templates/services/web_design.html:49
+msgid "E-commerce Websites"
+msgstr "وبسایت‌های فروشگاه اینترنتی"
+
+#: templates/services/web_design.html:50
+msgid ""
+"Platforms for buying and selling products or services online (e.g. Digikala, "
+"Amazon). With a shopping cart, payment gateway, and product management "
+"system."
+msgstr ""
+"پلتفرم‌هایی برای خرید و فروش محصولات یا خدمات به صورت آنلاین (مثل دیجی‌کالا، "
+"آمازون). مجهز به سبد خرید، درگاه پرداخت و سیستم مدیریت محصولات."
+
+#: templates/services/web_design.html:52
+msgid "Sellers, manufacturers, business startups."
+msgstr "فروشندگان، تولیدکنندگان، استارت‌آپ‌های تجاری."
+
+#: templates/services/web_design.html:53
+msgid "24/7 sales, access to the global market, reduced physical sales costs."
+msgstr "فروش 24/7، دسترسی به بازار جهانی، کاهش هزینه‌های فروش فیزیکی."
+
+#: templates/services/web_design.html:57
+msgid "Personal/Blog Websites"
+msgstr "وبسایت‌های شخصی/وبلاگ"
+
+#: templates/services/web_design.html:58
+msgid ""
+"For people who want to share their experiences, knowledge, or art (e.g., "
+"professional blogs, resume sites)."
+msgstr ""
+"برای افرادی که می‌خواهند تجربیات، دانش یا هنر خود را به اشتراک بگذارند (مثل "
+"وبلاگ‌های حرفه‌ای، سایت‌های رزومه)."
+
+#: templates/services/web_design.html:60
+msgid "Writers, artists, freelancers, professionals."
+msgstr "نویسندگان، هنرمندان، فریلنسرها، حرفه‌ای‌ها."
+
+#: templates/services/web_design.html:61
+msgid ""
+"Build a personal brand, monetize ads or content, connect directly with your "
+"audience."
+msgstr ""
+"ساخت برند شخصی، درآمدزایی از تبلیغات یا محتوا، ارتباط مستقیم با مخاطبان."
+
+#: templates/services/web_design.html:65
+msgid "News/Magazine Websites"
+msgstr "وبسایت‌های خبری/مجله"
+
+#: templates/services/web_design.html:66
+msgid ""
+"Platforms for publishing news, analytical articles, or digital magazines (e."
+"g. BBC, Zoomit). Usually updated daily."
+msgstr ""
+"پلتفرم‌هایی برای انتشار اخبار، مقالات تحلیلی یا مجلات دیجیتال (مثل بی بی سی، "
+"زومیت). معمولاً به صورت روزانه به‌روزرسانی می‌شوند."
+
+#: templates/services/web_design.html:68
+msgid "Journalists, media, breaking news enthusiasts."
+msgstr "روزنامه‌نگاران، رسانه‌ها، علاقه‌مندان به اخبار فوری."
+
+#: templates/services/web_design.html:69
+msgid "High traffic, revenue from advertising and subscriptions."
+msgstr "ترافیک بالا، درآمد از تبلیغات و اشتراک‌ها."
+
+#: templates/services/web_design.html:73
+msgid "Educational Websites"
+msgstr "وبسایت‌های آموزشی"
+
+#: templates/services/web_design.html:74
+msgid ""
+"Offering online courses, virtual training, or academic resources (e.g. "
+"Coursera, Faraders). May have an LMS system."
+msgstr ""
+"ارائه دوره‌های آنلاین، آموزش مجازی یا منابع آکادمیک (مثل فرادرس). ممکن است "
+"دارای سیستم ال ام اس باشند."
+
+#: templates/services/web_design.html:76
+msgid "Schools, universities, educators, students."
+msgstr "مدارس، دانشگاه‌ها، مربیان، دانش‌آموزان."
+
+#: templates/services/web_design.html:77
+msgid "Distance learning, selling courses, access to global resources."
+msgstr "آموزش از راه دور، فروش دوره‌ها، دسترسی به منابع جهانی."
+
+#: templates/services/web_design.html:81
+msgid "Service-Based Websites"
+msgstr "وبسایت‌های خدماتی"
+
+#: templates/services/web_design.html:82
+msgid ""
+"Focus on providing specific services such as website design, legal advice, "
+"hotel reservations, or telemedicine."
+msgstr ""
+"تمرکز بر ارائه خدمات خاص مانند طراحی وبسایت، مشاوره حقوقی، رزرو هتل یا پزشکی "
+"از راه دور."
+
+#: templates/services/web_design.html:84
+msgid ""
+"Professional service providers (e.g. doctors, lawyers, technology "
+"specialists)."
+msgstr "ارائه‌دهندگان خدمات حرفه‌ای (مثل پزشکان، وکلا، متخصصین فناوری)."
+
+#: templates/services/web_design.html:85
+msgid "Ease of booking services, professional presentation of the business."
+msgstr "رزرو آسان خدمات، ارائه حرفه‌ای کسب‌وکار."
+
+#: templates/services/web_design.html:89
+msgid "Forums/Social Networks"
+msgstr "فروم‌ها/شبکه‌های اجتماعی"
+
+#: templates/services/web_design.html:90
+msgid ""
+"Interactive platforms for discussion and exchange of ideas (like Reddit) or "
+"specialized social networks."
+msgstr ""
+"پلتفرم‌های تعاملی برای بحث و تبادل نظر (مثل ردیت) یا شبکه‌های اجتماعی تخصصی."
+
+#: templates/services/web_design.html:92
+msgid "Online communities, interest groups."
+msgstr "جامعه‌های آنلاین، گروه‌های علاقه‌مندی."
+
+#: templates/services/web_design.html:93
+msgid "User engagement, targeted advertising."
+msgstr "تعامل کاربران، تبلیغات هدفمند."
+
+#: templates/services/web_design.html:97
+msgid "Portfolio Websites"
+msgstr "نمونه‌کارهای ساخت و طراحی سایت"
+
+#: templates/services/web_design.html:98
+msgid ""
+"Showcase professional portfolios (e.g. photographers, graphic designers, "
+"developers)."
+msgstr "نمایش نمونه‌کارهای حرفه‌ای (مثل عکاسان، طراحان گرافیک، توسعه‌دهندگان)."
+
+#: templates/services/web_design.html:100
+msgid "Freelancers, artists, designers."
+msgstr "فریلنسرها، هنرمندان، طراحان."
+
+#: templates/services/web_design.html:101
+msgid "Attract direct clients, visually showcase expertise."
+msgstr "جذب مشتریان مستقیم، نمایش بصری تخصص‌ها."
+
+#: templates/services/web_design.html:105
+msgid "Membership Websites"
+msgstr "وبسایت‌های عضویت‌محور"
+
+#: templates/services/web_design.html:106
+msgid ""
+"Access to exclusive content after payment or registration (such as movie or "
+"software sites)."
+msgstr ""
+"دسترسی به محتوای اختصاصی پس از پرداخت یا ثبت‌نام (مثل سایت‌های فیلم یا "
+"نرم‌افزار)."
+
+#: templates/services/web_design.html:108
+msgid "Dedicated content creators."
+msgstr "تولیدکنندگان محتوای اختصاصی."
+
+#: templates/services/web_design.html:109
+msgid "Recurring revenue, loyal community of users."
+msgstr "درآمد تکرارشونده، جامعه وفادار کاربران."
+
+#: templates/services/web_design.html:113
+msgid "Inspirational Websites"
+msgstr "وبسایت‌های الهام‌بخش"
+
+#: templates/services/web_design.html:114
+msgid "Motivational, success, or lifestyle content (like TED)."
+msgstr "محتوای انگیزشی، موفقیت یا سبک زندگی (مانند تد)."
+
+#: templates/services/web_design.html:116
+msgid "The general public looking for motivation or life tips."
+msgstr "عموم مردم در جستجوی انگیزه یا نکات زندگی."
+
+#: templates/services/web_design.html:117
+msgid "Inspire and engage a broad audience."
+msgstr "الهام بخشیدن و درگیر کردن طیف گسترده‌ای از مخاطبان."
+
+#: templates/services/web_design_order_form.html:5
+msgid "Website Order Form"
+msgstr "فرم سفارش سایت"
+
+#: templates/services/web_design_order_form.html:18
+msgid "Website Design Order"
+msgstr "سفارش طراحی سایت"
+
+#: templates/services/web_design_portfolio.html:17
+msgid "Web Design Portfolio"
+msgstr "نمونه‌کارهای طراحی سایت"
+
+#: templates/services/web_design_portfolio.html:18
+msgid "Here are some of the best designs we’ve created for our clients."
+msgstr ""
+"در اینجا چند تا از بهترین نمونه کار های طراحی وبسایت مارا میتوانید ببینید"
+
+#: templates/users/change_password.html:9
+#: templates/users/change_password.html:17 templates/users/update_user.html:53
+msgid "Change Password"
+msgstr "تغییر پسورد"
+
+#: templates/users/change_password.html:18
+msgid "You can change your password from here"
+msgstr "رمز حساب کاربری خود را از اینجا میتوانید تغییر دهید"
+
+#: templates/users/change_password.html:60
+msgid "Change"
+msgstr "تغییر رمز"
+
+#: templates/users/login.html:17
+msgid "Login Account"
+msgstr "ورود به حساب"
+
+#: templates/users/login.html:18
+msgid "Login to your account"
+msgstr "به حساب خود وارد شوید"
+
+#: templates/users/login.html:25 templates/users/signup.html:39
+#: templates/users/update_user.html:30
+msgid "Username"
+msgstr "نام کاربری"
+
+#: templates/users/login.html:29 templates/users/signup.html:57
+msgid "Password"
+msgstr "رمز عبور"
+
+#: templates/users/login.html:37
+msgid "Login with Google"
+msgstr "ورود با گوگل"
+
+#: templates/users/login.html:41
+msgid "You don't have an account?"
+msgstr "حساب کاربری ندارید؟"
+
+#: templates/users/signup.html:17
+msgid "Create Account"
+msgstr "ساخت حساب"
+
+#: templates/users/signup.html:18
+msgid "Create your account below"
+msgstr "حساب کاربری خود را بسازید"
+
+#: templates/users/signup.html:30
+msgid "Email Address"
+msgstr "ایمیل"
+
+#: templates/users/signup.html:69
+msgid "Confirm Password"
+msgstr "تکرار رمز عبور"
+
+#: templates/users/signup.html:74
+#, fuzzy
+#| msgid "SignUp"
+msgid "Sign Up"
+msgstr "ثبت‌نام"
+
+#: templates/users/update_user.html:17
+msgid "Profile Information"
+msgstr "اطلاعات حساب کاربری"
+
+#: templates/users/update_user.html:18
+msgid "You can change your information from here"
+msgstr "اطلاعات حساب کاربری خود را میتوانید از اینجا ویرایش کنید"
+
+#: templates/users/update_user.html:39
+msgid "Email"
+msgstr "ایمیل"
+
+#: templates/users/update_user.html:50
+msgid "Edit Profile"
+msgstr "ویرایش پروفایل"
+
+#: users/forms.py:48 users/forms.py:107
+#, fuzzy
+#| msgid "The phone number should only contain digits!"
+msgid "The phone number should only contains digit numbers!"
+msgstr "شماره تلفن باید فقط شامل ارقام باشد!"
+
+#: users/forms.py:50 users/forms.py:109
+#, fuzzy
+#| msgid "The phone number should be 11 or 12 digits long!"
+msgid "The phone number should be 11 or 12 number!"
+msgstr "شماره تلفن باید ۱۱ یا ۱۲ رقمی باشد!"
+
+#: users/forms.py:136
+msgid "Your old password is incorrect"
+msgstr "پسورد قبلی شما نادرست است"
+
+#: users/views.py:22
+msgid "Your account has created"
+msgstr "حساب شما ساخته شد"
+
+#: users/views.py:35
+msgid "You've logged in to your account successfully"
+msgstr "با موفقیت به حساب خود وارد شده اید"
+
+#: users/views.py:38
+msgid "Invalid username or password. Please try again."
+msgstr "پسورد یا نام کاربری نا معتبر است. دوباره امتخان کنید"
+
+#: users/views.py:47
+msgid "You've logged out from your account!"
+msgstr "از حساب خود خارج شده اید"
+
+#: users/views.py:58
+msgid "Your profile was updated successfully"
+msgstr "اطلاعات شما با موفقیت به‌روزرسانی شد"
+
+#: users/views.py:62
+msgid "First you have to login to your account"
+msgstr "ابتدا باید به حساب خود وارد شوید"
+
+#: users/views.py:75
+msgid "Password changed successfully"
+msgstr "پسورد با موفقیت تغییر کرد"
+
+#: users/views.py:86
+#, fuzzy
+#| msgid "Login to your account"
+msgid "First you have to login to your account."
+msgstr "به حساب خود وارد شوید"
+
+#~ msgid "Tutorial"
+#~ msgstr "آموزش"
+
+#~ msgid "Inroduction"
+#~ msgstr "معرفی"
+
+#~ msgid "At <span class=\\"
+#~ msgstr "در <span class=\\"
+
+#~ msgid "Choose a category to place your custom order."
+#~ msgstr "دسته‌بندی را انتخاب کنید تا سفارش سفارشی خود را ثبت کنید."
+
+#~ msgid "FractalX was founded with a focus on modern website development."
+#~ msgstr "FractalX با تمرکز بر توسعه وب‌سایت‌های مدرن تأسیس شد."
+
+#~ msgid "Launched our first Telegram bots for clients."
+#~ msgstr "اولین ربات‌های تلگرام را برای مشتریان راه‌اندازی کردیم."
+
+#~ msgid "Expanded into trading tools and AI-powered solutions."
+#~ msgstr ""
+#~ "فعالیت خود را به ابزارهای معاملاتی و راه‌حل‌های مبتنی بر هوش مصنوعی گسترش "
+#~ "دادیم."

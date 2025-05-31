@@ -1,0 +1,173 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1a0033, #004d33, #003366);
+    background-size: 200% 200%;
+    animation: gradientMove 15s ease infinite;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.contact-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    margin-bottom: 40px;
+}
+
+.contact-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 15px rgba(0, 255, 198, 0.3);
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.contact-item:hover {
+    transform: scale(1.05) translateY(-3px);
+    box-shadow: 0 0 25px rgba(0, 255, 198, 0.5), 0 0 35px rgba(106, 0, 244, 0.4);
+    background: linear-gradient(90deg, rgba(0, 255, 198, 0.2), rgba(106, 0, 244, 0.2));
+    color: #5affdb;
+}
+
+.contact-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    stroke: #00ffc6;
+    transition: stroke 0.3s ease;
+}
+
+.contact-item:hover .contact-icon {
+    stroke: #bd54fa;
+}
+
+/* کلاس‌های hover با نام‌های جدید */
+.contact-item.contact-telegram:hover {
+    background: linear-gradient(90deg, rgba(0, 136, 204, 0.3), rgba(42, 171, 238, 0.3));
+}
+
+.contact-item.contact-whatsapp:hover {
+    background: linear-gradient(90deg, rgba(37, 211, 102, 0.3), rgba(18, 140, 76, 0.3));
+}
+
+.contact-item.contact-phone:hover {
+    background: linear-gradient(90deg, rgba(255, 193, 7, 0.3), rgba(255, 87, 34, 0.3));
+}
+
+.contact-item.contact-email:hover {
+    background: linear-gradient(90deg, rgba(238, 66, 102, 0.3), rgba(153, 27, 107, 0.3));
+}
+
+.particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+/* محافظت از آیکون‌های فوتر */
+footer {
+    position: relative;
+    z-index: 100 !important;
+}
+
+footer .social-icons-footer {
+    position: relative;
+    z-index: 101 !important;
+}
+
+footer .social-icons-footer a {
+    display: inline-block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    position: relative;
+    z-index: 102 !important;
+}
+
+footer .social-icons-footer a i {
+    display: inline-block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    font-size: 1.5rem !important;
+    color: #ffffff !important;
+    position: relative;
+    z-index: 103 !important;
+}
+
+footer .social-icons-footer a:hover i {
+    color: #00f0ff !important;
+    text-shadow: 0 0 10px #00f0ff, 0 0 20px #00f0ff !important;
+}
+
+/* اطمینان از عدم تداخل با particles */
+#particles-contact {
+    pointer-events: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-items {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contact-item {
+        width: 100%;
+        max-width: 300px;
+        justify-content: center;
+    }
+    
+    .contact-section h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-section {
+        padding: 10px;
+    }
+    
+    .contact-item {
+        padding: 12px 20px;
+        font-size: 1rem;
+    }
+    
+    .contact-icon {
+        width: 20px;
+        height: 20px;
+    }
+}
