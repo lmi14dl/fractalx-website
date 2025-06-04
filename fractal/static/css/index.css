@@ -11,6 +11,18 @@
     z-index: -1;
 } */
 
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header, section, div.container {
+    width: 100%;
+    overflow-x: hidden;
+}
+
 .particle {
     position: absolute;
     width: 2px;
@@ -226,10 +238,10 @@
 
 .services {
     display: flex;
-    justify-content: space-around;
-    margin-top: 5rem;
+    justify-content: center;
+    margin-top: 2rem;
     flex-wrap: wrap;
-    perspective: 1000px;
+    gap: 1rem;
 }
 
 .service-text {
@@ -442,7 +454,6 @@ svg {
     position: relative;
     height: 300px;
     width: 100%;
-    perspective: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
