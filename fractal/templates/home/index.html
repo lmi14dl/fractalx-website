@@ -25,13 +25,13 @@ FractalX
 <div class="{% if LANGUAGE_CODE == 'fa' %}rtl{% endif %}" style="text-align: {% if LANGUAGE_CODE == 'fa' %}right{% endif %};">
 
 
-<header class="bg-dark py-5">
+<header class="bg-dark py-3 py-md-5">
     <div class="particles-bg" id="particles-header"></div>
     <div class="particles" id="particles"></div>
-    <div class="container px-5">
-        <div class="row gx-5 align-items-center justify-content-center">
-            <div class="col-lg-6 col-xl-6 col-xxl-6 text-section">
-                <div class="my-5 text-center text-xl-start">
+    <div class="container px-2 px-md-5">
+        <div class="row gx-2 gx-md-5 align-items-center justify-content-center">
+            <div class="col-12 col-lg-6 text-section">
+                <div class="my-3 my-md-5 text-center text-lg-start">
                     <h1 class="display-5 fw-bolder text-white mb-2 animate-on-load" style="text-align: {% if LANGUAGE_CODE == 'fa' %}right{% endif %};">{% trans "Create Cutting-Edge Websites, Telegram Bots and Trading Tools" %}</h1>
                     <p class="lead fw-normal text-white-50 mb-4 animate-on-load" style="text-align: {% if LANGUAGE_CODE == 'fa' %}right{% endif %};">{% trans "Quickly build responsive websites, custom bots, and advanced trading tools with FractalX, your one-stop platform for all digital solutions!" %}</p>
                     <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start animate-on-load">
@@ -40,7 +40,7 @@ FractalX
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-xl-6 col-xxl-6 fractal-section">
+            <div class="col-12 col-lg-6 fractal-section">
                 <div class="modern-3d-text-container">
                     <svg id="arrows"></svg>
                     <div class="overlay">
@@ -65,28 +65,28 @@ FractalX
 </div>
 
 <!-- Services Section -->
-<section class="py-5 bg-light" id="services">
-    <div class="container px-5 my-5">
-        <div class="text-center mb-5">
+<section class="py-3 py-md-5 bg-light" id="services">
+    <div class="container px-2 px-md-5 my-3 my-md-5">
+        <div class="text-center mb-4 mb-md-5">
             <h2 class="fw-bolder services-section-title">{% trans "Our Services" %}</h2>
         </div>
-        <div class="row gx-5">
+        <div class="row gx-2 gx-md-5">
             <!-- Design Site -->
-            <div class="col-lg-4 mb-5">
+           <div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-5">
                 <div class="card h-100 shadow border-0 card-glow-bg">
                     <div class="card-sticker">💻</div>
-                    <video class="card-img-top" muted loop playsinline data-bs-toggle="modal" data-bs-target="#webDesignVideoModal" style="cursor: pointer;" poster="{% static 'images/cover_web.jpg' %}">
+                    <video class="card-img-top" muted loop playsinline data-bs-toggle="modal" data-bs-target="#webDesignVideoModal" style="cursor: pointer;" poster="{% static 'images/cover_web.jpg' %}" loading="lazy">
                         <source src="{% static 'videos/Site.mp4' %}" type="video/mp4">
                         {% trans "Your browser does not support the video tag." %}
                     </video>
                     <a href="{% url 'web_design' %}" class="card-link">
-                        <div class="card-body p-4">
+                        <div class="card-body p-3 p-md-4">
                             <h5 class="card-title mb-3">{% trans "Design Your Website" %}</h5>
                             <p class="card-text">
                                 <span>{% trans "Fast and professional dedicated website design with support." %}</span><br>
                                 <span>{% trans "Site design with modern technology and attractive UI/UX." %}</span>
                             </p>
-                            <div class="d-flex justify-content-center gap-3 mt-4">
+                            <div class="d-flex justify-content-center gap-2 gap-md-3 mt-3 mt-md-4">
                                 <a href="{% url 'web_design_portfolio' %}"><button class="btn-neon">{% trans "Portfolio" %}</button></a>
                                 <button class="btn-neon" data-bs-toggle="modal" data-bs-target="#webDesignOrderModal">{% trans "Order" %}</button>
                             </div>
@@ -96,7 +96,7 @@ FractalX
             </div>
             <!-- Web Design Video Modal -->
             <div class="modal fade video-modal" id="webDesignVideoModal" tabindex="-1" aria-labelledby="webDesignVideoModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-dialog modal-dialog-centered modal-md">
                     <div class="modal-content rounded-4 shadow">
                         <div class="modal-body p-0">
                             <video controls class="w-100" style="max-height: 80vh;">
@@ -162,21 +162,21 @@ FractalX
                 </div>
             </div>
             <!-- Telegram Bot -->
-            <div class="col-lg-4 mb-5">
+            <div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-5">
                 <div class="card h-100 shadow border-0 card-glow-bg">
                     <div class="card-sticker">🤖</div>
-                    <video class="card-img-top" muted loop playsinline data-bs-toggle="modal" data-bs-target="#telegramBotVideoModal" style="cursor: pointer;" poster="{% static 'images/cover_bot.jpg' %}">
+                    <video class="card-img-top" muted loop playsinline data-bs-toggle="modal" data-bs-target="#telegramBotVideoModal" style="cursor: pointer;" poster="{% static 'images/cover_bot.jpg' %}" loading="lazy">
                         <source src="{% static 'videos/Robot.mp4' %}" type="video/mp4">
                         {% trans "Your browser does not support the video tag." %}
                     </video>
                     <a href="{% url 'telegram_bot' %}" class="card-link">
-                        <div class="card-body p-4">
+                        <div class="card-body p-3 p-md-4">
                             <h5 class="card-title mb-3">{% trans "Create a Telegram Bot" %}</h5>
                             <p class="card-text">
                                 <span>{% trans "Fast and professional dedicated Telegram Bots with support." %}</span><br>
                                 <span>{% trans "Modern Telegram Bots with lots of options and features." %}</span>
                             </p>
-                            <div class="d-flex justify-content-center gap-3 mt-4">
+                            <div class="d-flex justify-content-center gap-2 gap-md-3 mt-3 mt-md-4">
                                 <a href="{% url 'telegram_bot_portfolio' %}"><button class="btn-neon">{% trans "Portfolio" %}</button></a>
                                 <button class="btn-neon" data-bs-toggle="modal" data-bs-target="#telegramBotOrderModal">{% trans "Order" %}</button>
                             </div>
@@ -348,7 +348,7 @@ FractalX
 
 
 <!-- Advanced Services Section -->
-<section class="advanced-services">
+<section class="advanced-services py-3 py-md-5">
     <div class="parallax-layer layer-1">
         <div class="grid-line line-horizontal" style="top: 20%"></div>
         <div class="grid-line line-horizontal" style="top: 40%"></div>
@@ -454,10 +454,10 @@ FractalX
 </section>
 
 <!-- Timeline Section -->
-<section class="timeline-section py-5">
+<section class="timeline-section py-3 py-md-5">
     <div class="particles" id="particles-timeline"></div>
     <div class="container">
-        <h2 class="text-center mb-5 services-section-title" data-aos="fade-up">{% trans "Our History" %}</h2>
+        <h2 class="text-center mb-4 mb-md-5 services-section-title" data-aos="fade-up">{% trans "Our History" %}</h2>
         <div class="timeline">
             <div class="timeline-item" data-aos="fade-right" data-aos-duration="1000">
                 <div class="timeline-content">
@@ -507,6 +507,10 @@ FractalX
     const xPoint = document.getElementById('xPoint');
     const services = document.querySelectorAll('.service-text');
     const particlesContainer = document.getElementById('particles');
+    const particleCount = document.documentElementById('particles').id;
+    const isMobileScreen = window.innerWidth <= 576;
+    const particleCount = isMobile ? 15 : 30;
+    
 
     // جلوگیری از هدایت به صفحه توضیحات هنگام کلیک روی ویدئو
     document.querySelectorAll('.card-img-top').forEach(video => {
@@ -961,13 +965,14 @@ FractalX
     AOS.init({
         once: true,
         offset: 100,
-        easing: 'ease-out-cubic'
+        easing: 'ease-out-cubic',
+        disable: window.innerWidth <= 576 // Disable AOS on small screens
     });
 
     // Particles.js برای Hero Section
     particlesJS('particles-header', {
-        particles: {
-            number: { value: 80, density: { enable: true, value_area: 800 } },
+    particles: {
+        number: { value: window.innerWidth <= 576 ? 40 : 80, density: { enable: true, value_area: 800 } },
             color: { value: ['#FEFEFE', '#004d33', '#003366'] },
             shape: { type: 'circle' },
             opacity: { value: 0.5, random: true },
@@ -977,7 +982,7 @@ FractalX
         },
         interactivity: {
             detect_on: 'canvas',
-            events: { onhover: { enable: true, mode: 'repulse' }, onclick: { enable: true, mode: 'push' } },
+            events: { onhover: { enable: window.innerWidth > 576, mode: 'repulse' }, onclick: { enable: true, mode: 'push' } },
             modes: { repulse: { distance: 100 }, push: { particles_nb: 4 } }
         },
         retina_detect: true
