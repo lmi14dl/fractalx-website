@@ -23,21 +23,10 @@
 }
 
 @keyframes floatParticle {
-    0% {
-        opacity: 0;
-        transform: translateY(0) translateX(0);
-    }
-    10% {
-        opacity: 0.8;
-    }
-    90% {
-        opacity: 0.4;
-    }
-    100% {
-        opacity: 0;
-        transform: translateY(-20vh) translateX(20px);
-    }
-}
+    0% { opacity: 0; transform: translateY(0) translateX(0); }
+    10% { opacity: 0.8; }
+    90% { opacity: 0.4; }
+    100% { opacity: 0; transform: translateY(-20vh) translateX(20px); }
 
 @keyframes pulsateBeam {
     0% {
@@ -65,7 +54,7 @@
 }
 
 .overlay h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     margin-bottom: 4rem;
     text-align: center;
     font-weight: 700;
@@ -429,47 +418,29 @@ svg {
 }
 
 @media (min-width: 992px) {
-    .fractal-section {
-        order: -1;
-        text-align: left;
-    }
-    .text-section {
-        text-align: right;
-    }
-    .modern-3d-text-container {
-        transform: translateX(-10%);
-    }
+    .fractal-section { order: -1; text-align: left; }
+    .text-section { text-align: right; }
+    .modern-3d-text-container { transform: translateX(-10%); }
 }
 
 @media (max-width: 991px) {
-    .text-section {
-        display: none;
-    }
-    .fractal-section {
-        width: 100%;
-        text-align: center;
-    }
-    .modern-3d-text-container {
-        height: auto;
-        padding: 20px;
-    }
-    .overlay h1 {
-        font-size: 3rem;
-    }
-    .service-text {
-        font-size: 1.2rem;
-        padding: 0.8rem 1.8rem;
-    }
-    .services {
-        flex-direction: column;
-        gap: 10px;
-        margin-top: 2rem;
-    }
+    .text-section { display: none; }
+    .fractal-section { width: 100%; text-align: center; }
+    .modern-3d-text-container { height: auto; padding: 1rem; }
+    .overlay h1 { font-size: 2.5rem; }
+    .service-text { font-size: 1.2rem; padding: 0.6rem 1.5rem; }
+    .services { flex-direction: column; gap: 0.5rem; margin-top: 1.5rem; }
+}
+
+@media (max-width: 576px) {
+    .overlay h1 { font-size: 2rem; }
+    .service-text { font-size: 1rem; padding: 0.5rem 1rem; }
+    .modern-3d-text-container { height: auto; }
 }
 
 .modern-3d-text-container {
     position: relative;
-    height: 400px;
+    height: 300px;
     width: 100%;
     perspective: 1000px;
     display: flex;
@@ -789,7 +760,7 @@ header.bg-dark {
     color: #fff;
     border-radius: 50px;
     border: 2px solid #a100ff;
-    padding: 14px 30px;
+    padding: 0.8rem 1.5rem;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -908,7 +879,7 @@ section.bg-light {
     box-shadow: 0 8px 30px rgba(0, 255, 157, 0.2), 0 4px 60px rgba(106, 0, 244, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     z-index: 1;
-    height: 450px;
+    min-height: 400px;
 }
 
 .card-glow-bg:hover {
@@ -939,10 +910,12 @@ section.bg-light {
 .card-title {
     color: #ffffff;
     font-weight: 700;
+    font-size: 1.25rem;
 }
 
 .card-text {
     color: #e0e0e0;
+    font-size: 0.9rem;
 }
 
 .card-link {
@@ -972,7 +945,7 @@ section.bg-light {
     color: #fff;
     border: none;
     border-radius: 50px;
-    padding: 0.8rem 2.2rem;
+    padding: 0.6rem 1.5rem;
     font-size: 17px;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
@@ -1946,6 +1919,14 @@ section.bg-light {
     animation: underline-glow 2.5s infinite ease-in-out;
   }
 
+@media (max-width: 576px) {
+    .services-section-title { font-size: 2rem; }
+    .card-title { font-size: 1.1rem; }
+    .card-text { font-size: 0.85rem; }
+    .btn-neon { padding: 0.5rem 1rem; font-size: 0.85rem; }
+    .modal-title { font-size: 1.2rem; }
+    .modal-btn-neon { padding: 0.6rem 1rem; font-size: 0.9rem; }
+}
 
 /* انیمیشن‌ها */
 @keyframes pulse {
