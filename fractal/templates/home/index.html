@@ -501,18 +501,15 @@ FractalX
             video.currentTime = 0;
         });
     });
-
-
-    // اصلاح خطا: استفاده از ID صحیح برای SVG
+    
+    // اصلاح خطا: استفاده از ID صحیح برای SVG و particles
     const svg = document.getElementById('arrows');
     const xPoint = document.getElementById('xPoint');
     const services = document.querySelectorAll('.service-text');
     const particlesContainer = document.getElementById('particles');
-    const particleCount = document.getElementById('particles').id;
-    const isMobileScreen = window.innerWidth <= 576;
-    const particleCount = isMobile ? 15 : 30;
+    const isMobile = window.innerWidth <= 576; // تعریف متغیر isMobile
+    const particleCount = isMobile ? 15 : 30; // تعداد ذرات بسته به اندازه صفحه
     
-
     // جلوگیری از هدایت به صفحه توضیحات هنگام کلیک روی ویدئو
     document.querySelectorAll('.card-img-top').forEach(video => {
         video.addEventListener('click', function (e) {
@@ -520,10 +517,9 @@ FractalX
             e.stopPropagation(); // جلوگیری از انتشار رویداد به والد
         });
     });
-
-    // Create floating light particles
+    
+    // ایجاد ذرات شناور
     function createParticles() {
-        const particleCount = 30;
         for (let i = 0; i < particleCount; i++) {
             const particle = document.createElement('div');
             particle.className = 'particle';
@@ -541,8 +537,8 @@ FractalX
             particlesContainer.appendChild(particle);
         }
     }
-
-    // Create light particles along the path
+    
+    // ایجاد ذرات در مسیر SVG
     function createPathParticles(path, count) {
         const pathLength = path.getTotalLength();
         const particles = [];
@@ -563,8 +559,8 @@ FractalX
         }
         return { pathLength, particles };
     }
-
-    // Animate particles along the path
+    
+    // انیمیشن ذرات در مسیر
     function animatePathParticles(path, pathInfo) {
         const { pathLength, particles } = pathInfo;
         particles.forEach(particle => {
@@ -591,15 +587,15 @@ FractalX
             }, particle.delay);
         });
     }
-
-    // رسم فلش‌ها
+    
+    // رسم فلش‌ها به صورت متوالی
     function drawSequentialArrows() {
         svg.innerHTML = '';
         const svgRect = svg.getBoundingClientRect();
         const xPointRect = xPoint.getBoundingClientRect();
         const startX = xPointRect.left + xPointRect.width / 2 - svgRect.left;
         const startY = xPointRect.top + xPointRect.height / 2 - svgRect.top;
-
+    
         const animationDuration = 1200;
         const delayBetweenArrows = 300;
         const animations = [
@@ -607,43 +603,43 @@ FractalX
             'telegramReveal 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards',
             'tradingReveal 1.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards'
         ];
-
+    
         services.forEach((service, index) => {
             const rect = service.getBoundingClientRect();
             const endX = rect.left + rect.width / 2 - svgRect.left;
             const endY = rect.top + rect.height / 2 - svgRect.top;
-
+    
             setTimeout(() => {
                 const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
                 const d = `M${startX},${startY} C${startX},${startY + 80} ${endX},${endY - 120} ${endX},${endY}`;
                 path.setAttribute('d', d);
                 path.setAttribute('class', 'connection-path');
                 path.style.animation = 'drawLine 1.2s ease-in-out forwards';
-
+    
                 const arrowHead = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
                 const size = 8;
                 const arrowPoints = `${endX},${endY} ${endX - size},${endY - size} ${endX + size},${endY - size}`;
                 arrowHead.setAttribute('points', arrowPoints);
                 arrowHead.setAttribute('class', 'arrow-head');
                 arrowHead.style.animation = 'fadeInArrow 0.5s ease-in forwards 0.7s';
-
+    
                 svg.appendChild(path);
                 svg.appendChild(arrowHead);
-
+    
                 const particleCount = 8 + Math.round(Math.random() * 5);
                 const pathInfo = createPathParticles(path, particleCount);
-
+    
                 setTimeout(() => {
                     animatePathParticles(path, pathInfo);
                 }, 300);
-
+    
                 setTimeout(() => {
                     service.style.animation = animations[index];
                 }, 700);
             }, index * (animationDuration + delayBetweenArrows));
         });
     }
-
+    
     // اجرای انیمیشن‌ها پس از بارگذاری فونت‌ها
     document.fonts.ready.then(() => {
         createParticles();
@@ -651,7 +647,7 @@ FractalX
             drawSequentialArrows();
         });
     });
-
+    
     // مدیریت تغییر اندازه صفحه
     let resizeTimeout;
     window.addEventListener('resize', () => {
@@ -660,7 +656,6 @@ FractalX
             drawSequentialArrows();
         }, 250);
     });
-
     // Animated Cards Interaction
     document.addEventListener('DOMContentLoaded', function() {
         const cards = document.querySelectorAll('.service-card');
